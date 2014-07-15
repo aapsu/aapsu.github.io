@@ -117,17 +117,23 @@
 	background-size:cover;
 }
 .zerogrid-full #logo1:hover {
-	background-image:url(../img/unity_btn_hover.jpg);
+	background-image:url(../img/unity_btn_orange.png);
 }
 .zerogrid-full #logo2:hover {
-	background-image:url(../img/teamboard_btn_hover.jpg);
+	background-image:url(../img/teamboard_btn_orange.png);
 }
 .zerogrid-full #logo3:hover {
-	background-image:url(../img/toolbar_btn_hover.jpg)
+	background-image:url(../img/toolbar_btn_orange.png)
 }
 .zerogrid-full #teamboard {
 	background-image:url(../img/teamboard_picture.png);
 	height: 750px;
+}
+.zerogrid-full #unity {
+	background-image:url(../img/unity_mockup_logo.png);
+	height: 750px;
+	background-color: #000;
+	opacity: 0.9;
 }
 .zerogrid-full .col-1-2 {
 	background-color:transparent !important;
