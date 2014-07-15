@@ -103,17 +103,17 @@
 }
 .zerogrid-full #logo1 {
 	background-image:url(../img/unity_btn.png);
-	transition: background-image 0.75s ease-in-out;
+	transition: background-image 0.25s ease-in-out;
 	background-size:cover;
 }
 .zerogrid-full #logo2 {
 	background-image:url(../img/teamboard_btn.png);
-	transition: background-image 0.75s ease-in-out;
+	transition: background-image 0.25s ease-in-out;
 	background-size:cover;
 }
 .zerogrid-full #logo3 {
 	background-image:url(../img/toolbar_btn.png);
-	transition: background-image 0.75s ease-in-out;
+	transition: background-image 0.25s ease-in-out;
 	background-size:cover;
 }
 .zerogrid-full #logo1:hover {
