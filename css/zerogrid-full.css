@@ -453,6 +453,55 @@ height: 420px!important;
 	margin-bottom: 30px !important;
 	margin-top: 60px !important;
 }
+.zerogrid-full .titlehere {
+	font-size: 20px !important;
+	margin-top: 20px !important;
+	line-height: 25px !important;
+}
+.zerogrid-full .viewmore-btn {
+	width:50% !important;
+	height: 30px; !important;
+	line-height: 30px; !important;
+	margin-bottom: 10px !important;
+	font-size: 15px !important;
+}
+#unity, #toolbar, #teamboard {
+	height: 350px!important;
+}
+.zerogrid-full .desc {
+	margin-top: 15px !important;
+	margin-bottom: 25px !important;
+	font-size: 14px !important;
+}
+.zerogrid-full h2 {
+	font-size: 28px!important;
+	line-height: 22px !important;
+	margin: 50px 20% 20px 20% !important;
+}
+.zerogrid-full .col-1-2 img {
+	height: 30px !important;
+	margin-left: 20% !important;
+}
+.zerogrid-full .title {
+	margin: 50px 20% 50px 20% !important;	
+	font-size:24px !important;
+}
+.zerogrid-full .desc2 {
+	font-size:16px !important;
+	margin:0 20% !important;
+	
+}
+.try-btn {
+	width:100px !important;
+	height: 30px !important;
+	font-size:14px !important;
+	line-height:28px !important;
+	border-width: 1px !important;
+	}
+#logo1, #logo2, #logo3 {
+	width: 50% !important;
+	height: 250px !important;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -480,6 +529,7 @@ height: 320px !important;
 .zerogrid-full footer {
 	opacity: 1.0 !important;
 }
+
 }
 
 @media only screen and (min-width: 620px) and (max-width: 767px) {
@@ -570,6 +620,55 @@ height: 420px!important;
 .zerogrid-full .n4sbutton-wrapper {
 	margin-bottom: 30px !important;
 }
+.zerogrid-full .titlehere {
+	font-size: 20px !important;
+	margin-top: 20px !important;
+	line-height: 25px !important;
+}
+.zerogrid-full .viewmore-btn {
+	width:50% !important;
+	height: 30px; !important;
+	line-height: 30px; !important;
+	margin-bottom: 10px !important;
+	font-size: 15px !important;
+}
+#unity, #toolbar, #teamboard {
+	height: 200px!important;
+}
+.zerogrid-full .desc {
+	margin-top: 15px !important;
+	margin-bottom: 25px !important;
+	font-size: 14px !important;
+}
+.zerogrid-full h2 {
+	font-size: 26px!important;
+	line-height: 22px !important;
+	margin: 50px 20% 20px 20% !important;
+}
+.zerogrid-full .col-1-2 img {
+	height: 20px !important;
+	margin-left: 20% !important;
+}
+.zerogrid-full .title {
+	margin: 50px 20% 50px 20% !important;	
+	font-size:24px !important;
+}
+.zerogrid-full .desc2 {
+	font-size:16px !important;
+	margin:0 20% !important;
+	
+}
+.try-btn {
+	width:100px !important;
+	height: 30px !important;
+	font-size:14px !important;
+	line-height:28px !important;
+	border-width: 1px !important;
+	}
+#logo1, #logo2, #logo3 {
+	width: 50% !important;
+	height: 200px !important;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
@@ -657,6 +756,53 @@ iframe {
 	}	
 .zerogrid-full .row {
 	background-color:transparent !important;
+}
+.zerogrid-full .titlehere {
+	font-size: 16px !important;
+	margin-top: 20px !important;
+	line-height: 25px !important;
+}
+.zerogrid-full .viewmore-btn {
+	width:50% !important;
+	height: 30px; !important;
+	line-height: 30px; !important;
+	margin-bottom: 10px !important;
+	font-size: 15px !important;
+}
+#unity, #toolbar, #teamboard {
+	height: 200px!important;}
+.zerogrid-full .desc {
+	margin-bottom: 25px !important;
+	font-size: 14px !important;
+}
+.zerogrid-full h2 {
+	font-size: 22px!important;
+	line-height: 22px !important;
+	margin: 50px 20% 20px 20% !important;
+}
+.zerogrid-full .col-1-2 img {
+	height: 20px !important;
+	margin-left: 20% !important;
+}
+.zerogrid-full .title {
+	margin: 50px 20% 50px 20% !important;	
+	font-size:24px !important;
+}
+.zerogrid-full .desc2 {
+	font-size:16px !important;
+	margin:0 20% !important;
+	
+}
+.try-btn {
+	width:100px !important;
+	height: 30px !important;
+	font-size:14px !important;
+	line-height:28px !important;
+	border-width: 1px !important;
+	}
+#logo1, #logo2, #logo3 {
+	width: 50% !important;
+	height: 150px !important;
 }		
 }
 
@@ -801,12 +947,15 @@ iframe {
 	height: 30px; !important;
 	line-height: 30px; !important;
 	margin-bottom: 10px !important;
-	font-size: 15px !important;
+	font-size: 12px !important;
+	margin-top: 30px !important;
 }
 #unity, #toolbar, #teamboard {
-	height: 200px!important;}
+	height: 200px!important;
+}
 .zerogrid-full .desc {
-	margin-bottom: 25px !important;
+	margin: 10px 10px 10px !important;
+	display:none !important;
 	font-size: 14px !important;
 }
 .zerogrid-full h2 {
@@ -833,6 +982,7 @@ iframe {
 	font-size:14px !important;
 	line-height:28px !important;
 	border-width: 1px !important;
+
 	}
 #logo1, #logo2, #logo3 {
 	width: 50% !important;
