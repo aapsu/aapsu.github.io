@@ -790,6 +790,54 @@ iframe {
 .zerogrid-full .n4sbutton-wrapper {
 	background-color: #FFF;
 }
+
+.zerogrid-full .titlehere {
+	font-size: 16px !important;
+	margin-top: 20px !important;
+	line-height: 25px !important;
+}
+.zerogrid-full .viewmore-btn {
+	width:50% !important;
+	height: 30px; !important;
+	line-height: 30px; !important;
+	margin-bottom: 10px !important;
+	font-size: 15px !important;
+}
+#unity, #toolbar, #teamboard {
+	height: 200px!important;}
+.zerogrid-full .desc {
+	margin-bottom: 25px !important;
+	font-size: 14px !important;
+}
+.zerogrid-full h2 {
+	font-size: 18px!important;
+	line-height: 22px !important;
+	margin: 50px 20% 20px 20% !important;
+}
+.zerogrid-full .col-1-2 img {
+	height: 20px !important;
+	margin-left: 20% !important;
+}
+.zerogrid-full .title {
+	margin: 50px 20% 50px 20% !important;	
+	font-size:24px !important;
+}
+.zerogrid-full .desc2 {
+	font-size:16px !important;
+	margin:0 20% !important;
+	
+}
+.try-btn {
+	width:100px !important;
+	height: 30px !important;
+	font-size:14px !important;
+	line-height:28px !important;
+	border-width: 1px !important;
+	}
+#logo1, #logo2, #logo3 {
+	width: 50% !important;
+	height: 150px !important;
+}
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
