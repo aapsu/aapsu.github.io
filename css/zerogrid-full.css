@@ -217,7 +217,6 @@ Author URI: http://www.zerotheme.com/
 	line-height: 45px;
 	font-family:texgyre;
 	color: #F75423;
-	font-weight: bold;
 	font-size: 38px;
 	margin-left: 180px;
 	margin-right: 55px;
@@ -299,13 +298,16 @@ Author URI: http://www.zerotheme.com/
 	background-color: #transparent;
 }
 .zerogrid-full #logo1 {
-	background-image:url(../img/logo1_light_background.png);
+	background-image:url(../img/teamboard_picture.png);
+	background-size: cover;
 }
 .zerogrid-full #logo2 {
-	background-image:url(../img/logo2_light_background.png);
+	background-image:url(../img/teamboard_btn.png);
+	background-size: cover;
 }
 .zerogrid-full #logo3 {
-	background-image:url(../img/logo3_light_background.png);
+	background-image:url(../img/home_page_picture.png);
+	background-size: cover;
 }
 .zerogrid-full #logo1:hover {
 	background-image:url(../img/logo1_dark_background.png);
@@ -351,8 +353,9 @@ Author URI: http://www.zerotheme.com/
 	height:300px !important;
 }
 .zerogrid-full .slide-out-div {
-	 opacity:0.95 !important;
-	 border-radius: 5px 5px 0px 0px !important;
+	 opacity:0.99 !important;
+	 width: 100% !important;
+
 }
  .zerogrid-full .right-form {
 	 width:45%!important;
@@ -434,7 +437,7 @@ Author URI: http://www.zerotheme.com/
 	display:block !important;
 }
 .zerogrid-full .slide-out-div {
-width: 93%!important;
+width: 100%!important;
 height: 420px!important;
 } 	
 .zerogrid-full .right-form {
@@ -515,18 +518,18 @@ height: 420px!important;
 	line-height:28px !important;
 	border-width: 1px !important;
 	}
-#logo1, #logo2, #logo3 {
+#work-logo1, #work-logo2, #work-logo3 {
 	width: 50% !important;
 	height: 250px !important;
 	transition:none !important;
 }
-.zerogrid-full #logo1:hover {
+.zerogrid-full #work-logo1:hover {
 	background-image:url(../img/unity_btn.png) !important;
 }
-.zerogrid-full #logo2:hover {
+.zerogrid-full #work-logo2:hover {
 	background-image:url(../img/teamboard_btn.png) !important;
 }
-.zerogrid-full #logo3:hover {
+.zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
 }
 }
@@ -550,7 +553,7 @@ height: 420px!important;
 	display:block !important;
 	}
 .zerogrid-full .slide-out-div {
-width: 93% !important;
+width: 100% !important;
 height: 320px !important;
 } 
 .zerogrid-full footer {
@@ -619,7 +622,7 @@ height: 320px !important;
 	display:block !important;
 }
 .zerogrid-full .slide-out-div {
-width: 93%!important;
+width: 100%!important;
 height: 420px!important;
 } 	
 .zerogrid-full .right-form {
@@ -697,7 +700,7 @@ height: 420px!important;
 	border-width: 1px !important;
 	margin-bottom: 10px !important;
 	}
-#logo1, #logo2, #logo3 {
+#work-logo1, #work-logo2, #work-logo3 {
 	width: 50% !important;
 	height: 200px !important;
 	transition: none !important;
@@ -706,13 +709,13 @@ height: 420px!important;
 	margin: 50px 60% 60px 20% !important;
 	opacity: 1.0;
 }
-.zerogrid-full #logo1:hover {
+.zerogrid-full #work-logo1:hover {
 	background-image:url(../img/unity_btn.png) !important;
 }
-.zerogrid-full #logo2:hover {
+.zerogrid-full #work-logo2:hover {
 	background-image:url(../img/teamboard_btn.png) !important;
 }
-.zerogrid-full #logo3:hover {
+.zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
 }
 }
@@ -764,7 +767,7 @@ height: 420px!important;
 	margin:0 auto !important;
 }
 .zerogrid-full .slide-out-div {
-width: 93%!important;
+width: 100%!important;
 height: 550px!important;
 } 	
 .zerogrid-full .right-form {
@@ -850,18 +853,18 @@ iframe {
 	line-height:28px !important;
 	border-width: 1px !important;
 	}
-#logo1, #logo2, #logo3 {
+#work-logo1, #work-logo2, #work-logo3 {
 	width: 50% !important;
 	height: 150px !important;
 	transition:none !important;
 }	
-.zerogrid-full #logo1:hover {
+.zerogrid-full #work-logo1:hover {
 	background-image:url(../img/unity_btn.png) !important;
 }
-.zerogrid-full #logo2:hover {
+.zerogrid-full #work-logo2:hover {
 	background-image:url(../img/teamboard_btn.png) !important;
 }
-.zerogrid-full #logo3:hover {
+.zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
 }	
 }
@@ -950,7 +953,8 @@ iframe {
 	display:none!important;
 }
 .zerogrid-full .text-success {
-	margin-right:20px !important;
+	margin-left:30px !important;
+	float:left !important;
 	margin-top:50px !important;
 	font-size: 26px !important;
 	line-height:26px !important;
@@ -978,8 +982,8 @@ iframe {
 	margin-top: 35px!important;
 }
 .zerogrid-full .slide-out-div {
-width: 90%!important;
-height: 550px!important;
+width: 100%!important;
+height: 480px!important;
 } 	
 .zerogrid-full .right-form {
 	width: 95% !important;
@@ -1048,24 +1052,30 @@ iframe {
 	border-width: 1px !important;
 
 	}
-.zerogrid-full #logo1, .zerogrid-full #logo2, .zerogrid-full #logo3 {
+.zerogrid-full #work-logo1, .zerogrid-full #work-logo2, .zerogrid-full #work-logo3 {
 	width: 50% !important;
 	height: 150px !important;
 	transition:none !important;
 }
-.zerogrid-full #logo1:hover {
+.zerogrid-full #work-logo1:hover {
 	background-image:url(../img/unity_btn.png) !important;
 }
-.zerogrid-full #logo2:hover {
+.zerogrid-full #work-logo2:hover {
 	background-image:url(../img/teamboard_btn.png) !important;
 }
-.zerogrid-full #logo3:hover {
+.zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
 }
 .zerogrid-full .orangetext {
-	margin-top: 20px !important; }
+	margin-top: 20px !important; 
+	}
 .zerogrid-full .orangetext-work {
-	margin-top: 20px !important; }	
+	margin-top: 20px !important; 
+	}	
+	.submit	{
+	width: 80px !important;
+	height: 36px !important;
+}
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1093,8 +1103,8 @@ body {
 .zerogrid-full footer p {
 	color: #FDFDFD;
 	font-size: 12px;
-	line-height: 25px;
-		font-family:webly;
+	line-height: 50px;
+	font-family:webly;
 }
 
 .zerogrid-full footer a {
@@ -1103,7 +1113,7 @@ body {
 	font-size:12px;
 	text-decoration:none;
 	margin: 0 auto;
-		font-family:webly;
+	font-family:webly;
 }
 
 .zerogrid-full footer a:hover{
@@ -1173,10 +1183,7 @@ table {
 }
 .zerogrid-full .ourwork-button {
 	margin-bottom: 20px;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #d1cfd1) );
-	background: -moz-linear-gradient( center top, #ededed 5%, #d1cfd1 100% );
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#d1cfd1');
-	background-color: #ededed;
+	background-color: #fff;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-left-radius: 5px;
@@ -1195,7 +1202,6 @@ table {
 	color: #f75423;
 	font-family: Times New Roman;
 	font-size: 18px;
-	font-weight: bold;
 	font-style: normal;
 	height: 36px;
 	line-height: 36px;
@@ -1204,11 +1210,8 @@ table {
 	text-align: center;
 }
 .zerogrid-full .ourwork-button:hover {
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d1cfd1), color-stop(1, #ededed) );
-	background: -moz-linear-gradient( center top, #d1cfd1 5%, #ededed 100% );
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1cfd1', endColorstr='#ededed');
 	background-color: #d1cfd1;
-	color:#232323;
+	color:#454545;
 	top:1px;
 	cursor:pointer;
 }
@@ -1298,6 +1301,7 @@ table {
 	width:25px;
 	text-decoration:none;
 	text-align:center;
+	margin-right: 45px;
 	text-shadow:1px 1px 0px #ffffff;
 }
 .zerogrid-full #close:hover {
@@ -1384,17 +1388,20 @@ table {
 
 .zerogrid-full .slide-out-div {
           padding: 20px;
-          width: 93%;
+          width: 100%;
 		  height: 420px;
 		  margin: 0px auto;
 		  font-family:webly;
 		  font-size:14px;
-          background-color: #312b2d;
-          border: #F75423 1px solid;
-		  border-bottom:0;
-		  border-left-width:0;
-		  color: #fff;
-		  border-radius: 0px 8px 0px 0px;
+          background-color: #FFFFFF;
+		  color: #4D4D4D;
+		  opacity: 0.99 !important;
+      } 
+	  .zerogrid-full .slide-out-div p {
+		  font-family:webly;
+		  font-size:14px;
+		  line-height: 20px;
+		  color: #4d4d4d;
       } 
 	       
 
@@ -1417,7 +1424,21 @@ table {
 
 .zerogrid-full .slide-out-div h3 {
 	font-size:22px;
+	color: #F75432;
+	font-weight:bold;
 	}
+
+.submit	{
+	line-height:30px !important;
+	font-size:18px !important;
+	font-family: webly !important;
+	margin-top: 10px !important;
+}
+.submit:hover	{
+	color: #4d4d4d !important;
+	background-color: #fff !important;
+	font-weight: bold !important;
+}
 	
 	
 

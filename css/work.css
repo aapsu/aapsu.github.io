@@ -103,28 +103,28 @@
 	margin-left:60%;
 	border-top: 5px solid #F75423;
 }
-.zerogrid-full #logo1 {
+.zerogrid-full #work-logo1 {
 	background-image:url(../img/unity_btn.png);
 	transition: background-image 0.25s ease-in-out;
 	background-size:cover;
 }
-.zerogrid-full #logo2 {
+.zerogrid-full #work-logo2 {
 	background-image:url(../img/teamboard_btn.png);
 	transition: background-image 0.25s ease-in-out;
 	background-size:cover;
 }
-.zerogrid-full #logo3 {
+.zerogrid-full #work-logo3 {
 	background-image:url(../img/toolbar_btn.png);
 	transition: background-image 0.25s ease-in-out;
 	background-size:cover;
 }
-.zerogrid-full #logo1:hover {
+.zerogrid-full #work-logo1:hover {
 	background-image:url(../img/unity_btn_orange.png);
 }
-.zerogrid-full #logo2:hover {
+.zerogrid-full #work-logo2:hover {
 	background-image:url(../img/teamboard_btn_orange.png);
 }
-.zerogrid-full #logo3:hover {
+.zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn_orange.png)
 }
 .zerogrid-full #toolbar {
@@ -137,6 +137,26 @@
 	height: 700px;
 	background-size:cover;
 }
+/*.zerogrid-full #teamboard-pic {
+	background-image:url(../img/teamboard_picture.png);
+	background-size:cover;
+	height: 200px;
+}
+.zerogrid-full #teamboard-pic2 {
+	background-image:url(../img/teamboard_picture.png);
+	background-size:cover;
+	height: 200px;
+}
+.zerogrid-full #teamboard-pic3 {
+	background-image:url(../img/teamboard_picture.png);
+	background-size:cover;
+	height: 200px;
+}
+.zerogrid-full #teamboard-pic4 {
+	background-image:url(../img/teamboard_picture.png);
+	background-size:cover;
+	height: 200px;
+}*/
 .zerogrid-full #unity {
 	background-image:url(../img/unity_mockup_logo.png);
 	height: 700px;
