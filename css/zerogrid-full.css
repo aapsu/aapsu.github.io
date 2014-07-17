@@ -518,6 +518,16 @@ height: 420px!important;
 #logo1, #logo2, #logo3 {
 	width: 50% !important;
 	height: 250px !important;
+	transition:none !important;
+}
+.zerogrid-full #logo1:hover {
+	background-image:url(../img/unity_btn.png) !important;
+}
+.zerogrid-full #logo2:hover {
+	background-image:url(../img/teamboard_btn.png) !important;
+}
+.zerogrid-full #logo3:hover {
+	background-image:url(../img/toolbar_btn.png) !important;
 }
 }
 
