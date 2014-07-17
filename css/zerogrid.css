@@ -869,9 +869,14 @@ table {
 .zerogrid .nav.scroll-to-fixed-fixed { 
     background-image:url(../img/bg_low.jpg);
 }
+.zerogrid .scroll-to-fixed-fixed {
+	width: 100% !important;
+	left: 0 !important; 
+}
 .zerogrid .nav ul {
 	list-style: none;
 	padding: 0px;
+
 	margin: 0px;
 	font-weight: bold;
 	text-align:right;
@@ -918,7 +923,7 @@ table {
 }
 .zerogrid .nav ul li a:hover {
 	background-color:#F75423;
-	color: #cccccc;
+	color: #FFF;
 }
 
 .zerogrid .logo { margin-bottom: 10px;}

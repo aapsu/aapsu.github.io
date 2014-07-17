@@ -150,14 +150,14 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .col-full-example4 {
 	background-color: #fff;
 	background-repeat:repeat-x;
-	opacity:0.7;
+	opacity:0.99;
 	height: 200px;
 	clear: both;
 }
 .zerogrid-full .col-full-example6 {
 	background-color: #fff;
 	background-repeat:repeat-x;
-	opacity:0.7;
+	opacity:0.99;
 	height: 550px;
 	clear: both;
 }
@@ -264,6 +264,13 @@ Author URI: http://www.zerotheme.com/
 	margin: 100px 25% 55px 25%;
 	color: #F75423;
 }
+.zerogrid-full .orangetext-work {
+	font-size: 38px;
+	font-family:texgyre;
+	text-align: left;
+	margin: 100px 25% 55px 25%;
+	color: #F75423;
+}
 .zerogrid-full .context {
 	font-size: 24px;
 	text-align: left;
@@ -359,6 +366,9 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .text-success {
 	margin-left: 25px !important; 
 }
+.zerogrid-full .title {
+	margin-left: 60% !important;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -407,6 +417,10 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full .orangetext {
 	margin: 50px 10% 30px 10% !important;
+	opacity: 1.0;
+}
+.zerogrid-full .orangetext-work {
+	margin: 55px 10% 50px 10% !important;
 	opacity: 1.0;
 }
 .zerogrid-full .text-success, .zerogrid-full .success-text {
@@ -475,8 +489,8 @@ height: 420px!important;
 }
 .zerogrid-full h2 {
 	font-size: 28px!important;
-	line-height: 22px !important;
-	margin: 50px 20% 20px 20% !important;
+	line-height: 35px !important;
+	margin: 100px 20% 20px 20% !important;
 }
 .zerogrid-full .col-1-2 img {
 	height: 30px !important;
@@ -488,13 +502,16 @@ height: 420px!important;
 }
 .zerogrid-full .desc2 {
 	font-size:16px !important;
-	margin:0 20% !important;
-	
+	margin:50px 20px 0px 0px!important;
+}
+.zerogrid-full .desc3 {
+	font-size:16px !important;
+	margin:50px 10% 0px !important;
 }
 .try-btn {
 	width:100px !important;
 	height: 30px !important;
-	font-size:14px !important;
+	font-size:16px !important;
 	line-height:28px !important;
 	border-width: 1px !important;
 	}
@@ -574,6 +591,10 @@ height: 320px !important;
 	width: 100px !important;	
 }
 .zerogrid-full .orangetext {
+	margin: 50px 10% 30px 10% !important;
+	opacity: 1.0;
+}
+.zerogrid-full .orangetext-work {
 	margin: 50px 10% 30px 10% !important;
 	opacity: 1.0;
 }
@@ -699,6 +720,10 @@ height: 420px!important;
 	display:none;
 }
 .zerogrid-full .orangetext {
+	margin: 50px 10% 30px 10% !important;
+	opacity: 1.0;
+}
+.zerogrid-full .orangetext-work {
 	margin: 50px 10% 30px 10% !important;
 	opacity: 1.0;
 }
@@ -861,7 +886,11 @@ iframe {
 .zerogrid-full .orangetext {
 	font-size: 24px;
 	margin: 25px 25px 25px 25px; 
-	}	
+}
+.zerogrid-full .orangetext-work {
+	font-size: 24px;
+	margin: 25px 25px 25px 25px; 
+	}			
 
 .zerogrid-full .text {
 	line-height: 38px !important;
@@ -968,26 +997,40 @@ iframe {
 	margin-left: 20% !important;
 }
 .zerogrid-full .title {
-	margin: 50px 20% 50px 20% !important;	
+	margin: 50px 20% 10px 60% !important;	
 	font-size:24px !important;
 }
 .zerogrid-full .desc2 {
 	font-size:16px !important;
-	margin:0 20% !important;
+	margin:10px 20% !important;
 	
 }
 .try-btn {
 	width:100px !important;
 	height: 30px !important;
-	font-size:14px !important;
+	font-size:16px !important;
 	line-height:28px !important;
 	border-width: 1px !important;
 
 	}
-#logo1, #logo2, #logo3 {
+.zerogrid-full #logo1, .zerogrid-full #logo2, .zerogrid-full #logo3 {
 	width: 50% !important;
 	height: 150px !important;
+	transition:none !important;
 }
+.zerogrid-full #logo1:hover {
+	background-image:url(../img/unity_btn.png) !important;
+}
+.zerogrid-full #logo2:hover {
+	background-image:url(../img/teamboard_btn.png) !important;
+}
+.zerogrid-full #logo3:hover {
+	background-image:url(../img/toolbar_btn.png) !important;
+}
+.zerogrid-full .orangetext {
+	margin-top: 20px !important; }
+.zerogrid-full .orangetext-work {
+	margin-top: 20px !important; }	
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
