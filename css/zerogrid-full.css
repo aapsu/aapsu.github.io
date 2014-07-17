@@ -654,7 +654,7 @@ height: 420px!important;
 	font-size: 15px !important;
 }
 #unity, #toolbar, #teamboard {
-	height: 200px!important;
+	height: 300px!important;
 }
 .zerogrid-full .desc {
 	margin-top: 15px !important;
@@ -664,7 +664,7 @@ height: 420px!important;
 .zerogrid-full h2 {
 	font-size: 26px!important;
 	line-height: 22px !important;
-	margin: 50px 20% 20px 20% !important;
+	margin: 75px 20% 20px 20% !important;
 }
 .zerogrid-full .col-1-2 img {
 	height: 20px !important;
@@ -685,10 +685,25 @@ height: 420px!important;
 	font-size:14px !important;
 	line-height:28px !important;
 	border-width: 1px !important;
+	margin-bottom: 10px !important;
 	}
 #logo1, #logo2, #logo3 {
 	width: 50% !important;
 	height: 200px !important;
+	transition: none !important;
+}
+.zerogrid-full .orangetext-work {
+	margin: 50px 60% 60px 20% !important;
+	opacity: 1.0;
+}
+.zerogrid-full #logo1:hover {
+	background-image:url(../img/unity_btn.png) !important;
+}
+.zerogrid-full #logo2:hover {
+	background-image:url(../img/teamboard_btn.png) !important;
+}
+.zerogrid-full #logo3:hover {
+	background-image:url(../img/toolbar_btn.png) !important;
 }
 }
 
@@ -724,7 +739,7 @@ height: 420px!important;
 	opacity: 1.0;
 }
 .zerogrid-full .orangetext-work {
-	margin: 50px 10% 30px 10% !important;
+	margin: 50px 60% 60px 20% !important;
 	opacity: 1.0;
 }
 .zerogrid-full .text-success, .zerogrid-full .success-text {
@@ -828,7 +843,17 @@ iframe {
 #logo1, #logo2, #logo3 {
 	width: 50% !important;
 	height: 150px !important;
-}		
+	transition:none !important;
+}	
+.zerogrid-full #logo1:hover {
+	background-image:url(../img/unity_btn.png) !important;
+}
+.zerogrid-full #logo2:hover {
+	background-image:url(../img/teamboard_btn.png) !important;
+}
+.zerogrid-full #logo3:hover {
+	background-image:url(../img/toolbar_btn.png) !important;
+}	
 }
 
 /* Normal smartphones with smaller screens*/
@@ -980,7 +1005,7 @@ iframe {
 	margin-top: 30px !important;
 }
 #unity, #toolbar, #teamboard {
-	height: 200px!important;
+	height: 250px!important;
 }
 .zerogrid-full .desc {
 	margin: 10px 10px 10px !important;
@@ -990,7 +1015,7 @@ iframe {
 .zerogrid-full h2 {
 	font-size: 18px!important;
 	line-height: 22px !important;
-	margin: 50px 20% 20px 20% !important;
+	margin: 100px 20% 20px 20% !important;
 }
 .zerogrid-full .col-1-2 img {
 	height: 20px !important;
