@@ -322,7 +322,7 @@ Author URI: http://www.zerotheme.com/
 	vertical-align:middle;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
 
 .zerogrid-full .col-full-example1, .col-full-example2, .col-full-example5 {
 	background-image:none !important;
@@ -371,7 +371,7 @@ Author URI: http://www.zerotheme.com/
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 .zerogrid-full {
 	width: 100%;
 	background-color: #fff;
