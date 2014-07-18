@@ -64,7 +64,7 @@ Author URI: http://www.zerotheme.com/
 
 .zerogrid-full .col-1-2-photo {
 	width: 50%;
-	background-image:url(../img/about_picture.png);
+	background-image:url(../img/about_picture.jpg);
 	background-size:cover;
 }
 .zerogrid-full .col-1-2-transparent {
@@ -306,7 +306,7 @@ Author URI: http://www.zerotheme.com/
 	background-size: cover;
 }
 .zerogrid-full #logo3 {
-	background-image:url(../img/home_page_picture.png);
+	background-image:url(../img/home_page.jpg);
 	background-size: cover;
 }
 .zerogrid-full #logo1:hover {
