@@ -308,6 +308,26 @@ Author URI: http://www.zerotheme.com/
 	background-image:url(../img/home_page.jpg);
 	background-size: cover;
 }
+.zerogrid-full #logo4 {
+	background-image:url(../img/teamboard_btn.png);
+	background-size: cover;
+}
+.zerogrid-full #photo1 {
+	background-image:url(../img/teamboard_picture.png);
+	background-size: cover;
+}
+.zerogrid-full #photo2 {
+	background-image:url(../img/teamboard_btn.png);
+	background-size: cover;
+}
+.zerogrid-full #photo3 {
+	background-image:url(../img/home_page.jpg);
+	background-size: cover;
+}
+.zerogrid-full #photo4 {
+	background-image:url(../img/teamboard_btn.png);
+	background-size: cover;
+}
 .zerogrid-full #logo1:hover {
 	background-image:url(../img/logo1_dark_background.png);
 }
@@ -316,6 +336,21 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full #logo3:hover {
 	background-image:url(../img/logo3_dark_background.png);
+}
+.zerogrid-full #logo4:hover {
+	background-image:url(../img/logo2_dark_background.png);
+}
+.zerogrid-full #photo1:hover {
+	background-image:url(../img/logo1_dark_background.png);
+}
+.zerogrid-full #photo2:hover {
+	background-image:url(../img/logo2_dark_background.png);
+}
+.zerogrid-full #photo3:hover {
+	background-image:url(../img/logo3_dark_background.png);
+}
+.zerogrid-full #photo4:hover {
+	background-image:url(../img/logo2_dark_background.png);
 }
 .zerogrid-full #logo1 img, #logo2 img, #logo3 img {
 	height:200px;
