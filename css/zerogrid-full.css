@@ -332,15 +332,10 @@ Author URI: http://www.zerotheme.com/
 	background-color:transparent !important;
 }
 .zerogrid-full .col-1-4 {
-	width: 23.75% !important;
-	margin-right: 1% !important;
-	margin-bottom: 1% !important;
+	width: 25% !important;
 }
 .zerogrid-full .col-1-4-1 {
-	width: 23.75% !important;
-	margin-right: 1% !important;
-	margin-left: 1%!important;
-	margin-bottom: 1% !important;
+	width: 25% !important;
 }
 .zerogrid-full .example2 {
 	line-height: 506px !important;	
@@ -370,6 +365,13 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full .title {
 	margin-left: 60% !important;
+}
+.zerogrid-full .n4sbutton {
+	margin-top: 30px !important;
+	margin-bottom: 10px !important;
+}
+.zerogrid-full .ourwork-button {
+	margin-top: 40px !important;
 }
 }
 
@@ -531,6 +533,13 @@ height: 420px!important;
 .zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
 }
+.zerogrid-full .n4sbutton {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.zerogrid-full .ourwork-button {
+	margin-top: 40px !important;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -579,7 +588,7 @@ height: 320px !important;
 	opacity: 1.0 !important;
 }
 .zerogrid-full #picheight {
-	height: 440px !important;
+	height: 400px !important;
 }
 .zerogrid-full .col-1-6, .zerogrid-full .col-1-2, .zerogrid-full .col-2-6, .zerogrid-full .col-3-6, .zerogrid-full .col-4-6, .zerogrid-full .col-5-6 {
 	width: 100%;
@@ -717,6 +726,17 @@ height: 420px!important;
 .zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
 }
+.zerogrid-full .n4sbutton {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	width: 150px !important;
+	height: 30px !important;
+	font-size: 14px !important;
+	line-height: 30px !important;
+}
+.zerogrid-full .ourwork-button {
+	margin-top: 20px !important;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
@@ -734,7 +754,7 @@ height: 420px!important;
 	opacity: 1.0 !important;
 }
 .zerogrid-full #picheight {
-	height: 440px !important;
+	height: 400px !important;
 }
 .zerogrid-full .col-1-4 {
 	width: 50%;
@@ -865,7 +885,18 @@ iframe {
 }
 .zerogrid-full #work-logo3:hover {
 	background-image:url(../img/toolbar_btn.png) !important;
-}	
+}
+.zerogrid-full .n4sbutton {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	width: 150px !important;
+	height: 30px !important;
+	font-size: 14px !important;
+	line-height: 30px !important;
+}
+.zerogrid-full .ourwork-button {
+	margin-top: 20px !important;
+}
 }
 
 /* Normal smartphones with smaller screens*/
@@ -911,7 +942,14 @@ iframe {
 	background-color:#fff!important;
 }
 #picheight {
-	height:300px!important;
+	height:275px!important;
+}
+.zerogrid-full .n4sbutton {
+	margin-top: 10px !important;
+	width: 150px !important;
+	height: 30px !important;
+	font-size: 14px !important;
+	line-height: 30px !important;
 }
 	
 .zerogrid-full .ourvision-text {
@@ -919,6 +957,9 @@ iframe {
 	padding-left: 20px !important;
 	padding-right: 20px !important;
 	padding-top: 40px !important;
+}
+.zerogrid-full .ourwork-button {
+	margin-top: 20px !important;
 }
 .zerogrid-full .orangetext {
 	font-size: 24px;
@@ -975,7 +1016,7 @@ iframe {
 }
 
 .zerogrid-full .context {
-	margin:30px !important;
+	margin:30px 30px 10px 30px !important;
 	font-size:18px;
 	background-color:#fff;
 }
@@ -1078,6 +1119,7 @@ iframe {
 	width: 80px !important;
 	height: 36px !important;
 }
+
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {

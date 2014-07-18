@@ -161,18 +161,18 @@
 	height: 400px;
 	background-size:cover;
 }
-/*.zerogrid-full #teamboard-pic {
-	background-image:url(../img/teamboard_picture.png);
+.zerogrid-full #teamboard-pic {
+	background-image:url(../img/home_page.jpg);
 	background-size:cover;
 	height: 200px;
 }
 .zerogrid-full #teamboard-pic2 {
-	background-image:url(../img/teamboard_picture.png);
+	background-image:url(../img/teamboard_btn.png);
 	background-size:cover;
 	height: 200px;
 }
 .zerogrid-full #teamboard-pic3 {
-	background-image:url(../img/teamboard_picture.png);
+	background-image:url(../img/teamboard_btn_orange.png);
 	background-size:cover;
 	height: 200px;
 }
@@ -180,7 +180,7 @@
 	background-image:url(../img/teamboard_picture.png);
 	background-size:cover;
 	height: 200px;
-}*/
+}
 .zerogrid-full #unity {
 	background-image:url(../img/unity_mockup_logo.jpg);
 	height:450px;
@@ -253,3 +253,4 @@
 .try-btn:hover {
 	cursor:pointer;
 }
+
