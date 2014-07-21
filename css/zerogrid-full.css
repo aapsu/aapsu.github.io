@@ -352,7 +352,7 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full #photo4:hover {
 	background-image:url(../img/logo2_dark_background.png);
 }
-.zerogrid-full #logo1 img, #logo2 img, #logo3 img {
+.zerogrid-full #logo1 img, #logo2 img, #logo3 img, #logo4 img {
 	height:200px;
 	width: 200px;
 	vertical-align:middle;
