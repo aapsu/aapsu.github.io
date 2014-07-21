@@ -149,6 +149,9 @@ Author URI: http://www.zerotheme.com/
 	width: 100%;
 	background-color: #fff;
 }
+body {
+	background-image:url(../img/bg_low4_tablet.jpg) !important;
+}
 .zerogrid .col-1-3, .zerogrid .col-2-3 {
 	width: 50%;
 }
@@ -476,17 +479,7 @@ body {
 	background-attachment:fixed;
 	width:100%;
 	top:0;
-
 }
-
-/*#bg {
-	background-image:url(../img/bg.jpg);
-	margin: 0;
-	width:100%;
-	height: 1080px;
-	position:fixed;
-	}*/
-
 .zerogrid .backtop {
 	position:fixed;
 	top: 0;
@@ -945,6 +938,7 @@ table {
     background-color: #000;
 	height: 50px;
 	border: 0;
+	transition: all 200ms linear;
 }
 .zerogrid .scroll-to-fixed-fixed {
 	width: 100% !important;
@@ -954,6 +948,7 @@ table {
 .zerogrid .nav.scroll-to-fixed-fixed ul li {
 	top: 10px;
 	display:inline-block;
+	
 }
 .zerogrid .nav.scroll-to-fixed-fixed ul {
 	 width:100%;
