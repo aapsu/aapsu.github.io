@@ -359,7 +359,7 @@ height: 320px !important;
 }
 .zerogrid .logo {
 	display: block !important;
-	margin: 0px 0px 50px !important;
+	margin: 0px 0px 20px !important;
 }
 .zerogrid .nav {
 	border-bottom:0px !important;
@@ -449,7 +449,9 @@ height: 320px !important;
 	display:none !important;
 }
 .zerogrid .logo {
-	display: none !important;
+	display: block !important;
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
 }
 .zerogrid .nav {
 	border-bottom:0px !important;
@@ -832,7 +834,8 @@ table {
 }
 .zerogrid #sayhello-button {
 	margin-top: 80px;
-	background-color: #F75423;
+	color: #F75423;
+	background-color: #fff;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-left-radius: 5px;
@@ -846,9 +849,8 @@ table {
 	-moz-border-radius-bottomleft: 5px;
 	border-bottom-left-radius: 5px;
 	text-indent: 1.48px;
-	border: 1px solid #f5f0f5;
+	border: 2px solid #F75423;
 	display: inline-block;
-	color: #ebe4eb;
 	font-family: texgyre;
 	font-size: 20px;
 	font-weight: normal;
@@ -858,12 +860,10 @@ table {
 	width: 148px;
 	text-decoration: none;
 	text-align: center;
-	-webkit-box-shadow: 0px 4px 0px #F75423;
-    -moz-box-shadow: 0px 4px 0px #F75423;
-     box-shadow: 0px 4px 0px #F75423;
 }
 .zerogrid #sayhello-button:hover {
-	color:#2A2828;
+	color:#fff;
+	background-color:#F75423;
 	top:1px;
 	cursor:pointer;
 }

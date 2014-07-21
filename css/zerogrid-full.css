@@ -157,7 +157,7 @@ Author URI: http://www.zerotheme.com/
 	background-color: #fff;
 	background-repeat:repeat-x;
 	opacity:0.99;
-	height: 550px;
+	height: 575px;
 	clear: both;
 }
 
@@ -383,8 +383,11 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full .slide-out-div {
 	 opacity:0.99 !important;
-	 width: 100% !important;
-
+	 margin: 0 20% !important;
+	 width: 60% !important;
+}
+#close {
+	margin-right: 20px !important;
 }
  .zerogrid-full .right-form {
 	 width:45%!important;
@@ -473,8 +476,9 @@ Author URI: http://www.zerotheme.com/
 	display:block !important;
 }
 .zerogrid-full .slide-out-div {
-width: 100%!important;
-height: 420px!important;
+	 opacity:0.99 !important;
+	 margin: 0 10% !important;
+	 width: 80% !important;
 } 	
 .zerogrid-full .right-form {
 	display:block !important;
@@ -1289,8 +1293,11 @@ table {
 	text-align: center;
 }
 .zerogrid-full .n4sbutton:hover {
-		position: relative;
+	position: relative;
 	top: 1px;
+	color:#fff;
+	background-color: #F75432;
+	border-color:#F75432;
 }
 .zerogrid-full .n4sbutton:active {
 	position: relative;
@@ -1313,7 +1320,7 @@ table {
 	-moz-border-radius-bottomleft: 5px;
 	border-bottom-left-radius: 5px;
 	text-indent: 1.48px;
-	border: 1px solid #f75423;
+	border: 2px solid #f75423;
 	display: inline-block;
 	color: #f75423;
 	font-family: Times New Roman;
@@ -1326,7 +1333,8 @@ table {
 	text-align: center;
 }
 .zerogrid-full .ourwork-button:hover {
-	color:#454545;
+	color:#fff;
+	background-color:#f75423;
 	top:1px;
 	cursor:pointer;
 }
@@ -1356,7 +1364,7 @@ table {
 	border: 1px solid #f5f0f5;
 	display: inline-block;
 	color: #ebe4eb;
-	font-family: Times New Roman;
+	font-family: kompani;
 	font-size: 22px;
 	font-weight: normal;
 	font-style: normal;
@@ -1504,6 +1512,7 @@ table {
 .zerogrid-full .slide-out-div {
           padding: 20px;
           width: 100%;
+		  border-radius: 5px 5px 0px 0px;
 		  height: 420px;
 		  margin: 0px auto;
 		  font-family:webly;

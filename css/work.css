@@ -218,10 +218,7 @@ body {
 }
 
 .try-btn {
-	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
-	box-shadow:inset 0px 1px 0px 0px #fce2c1;
-	background-color:transparent;
+	background-color:#fff;
 	-webkit-border-top-left-radius:4px;
 	-moz-border-radius-topleft:4px;
 	border-top-left-radius:4px;
@@ -239,21 +236,24 @@ body {
 	display:inline-block;
 	color:#f75423;
 	font-family:Times New Roman;
-	font-size:25px;
+	font-size:20px;
 	font-weight:normal;
 	font-style:normal;
-	height:51px;
-	line-height:51px;
-	width:188px;
+	height:36px;
+	line-height:36px;
+	width:148px;
 	text-decoration:none;
 	text-align:center;
 	margin-bottom: 60px;
-		cursor:pointer;
+	cursor:pointer;
 }.try-btn:active {
 	position:relative;
+
 	top:1px;
 }
 .try-btn:hover {
 	cursor:pointer;
+		background-color: #F75432;
+	color: #fff;
 }
 
