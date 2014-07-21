@@ -1,18 +1,20 @@
 @charset "utf-8";
 /* CSS Document for work page */
-
+body {
+	background-color:#221A26!important; 
+}
 .zerogrid {
-	background-color:#171717!important;
+	background-color:#221A26!important;
 }
 .zerogrid .row {
-	background-color:transparent!important;
+	background-color:#221A26!important;
 }
 .zerogrid .nav {
 	border-bottom: 0px !important;
 }
 .zerogrid .logo {
-	height: 66px;
-	width: 112px;
+	height: 150px;
+	width: 253px;
 }
 .zerogrid-full .logoshere {
 	line-height: 230px;
@@ -45,7 +47,12 @@
 	text-decoration:none;
 	text-align:center;
 	margin-bottom: 50px;
-}.viewmore-btn:active {
+}
+.viewmore-btn:hover {
+	background-color:#F75423;
+	transition: background-color 0.25s ease-in-out;
+}
+.viewmore-btn:active {
 	position:relative;
 	top:1px;
 }
@@ -58,14 +65,14 @@
 	line-height: 75px;
 	text-align:center;
 	font-size:30px;
-	margin-top: 120px;
+	margin-top: 90px;
 	color: #fff; 
 }
 .desc {
 	font-size:18px;
 	font-style:italic;
 	text-align:center;
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 	font-family:texgyre;
 	color:#FFFFFF;
 }

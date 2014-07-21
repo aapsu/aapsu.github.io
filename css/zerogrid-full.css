@@ -157,7 +157,7 @@ Author URI: http://www.zerotheme.com/
 	background-color: #fff;
 	background-repeat:repeat-x;
 	opacity:0.99;
-	height: 550px;
+	height: 500px;
 	clear: both;
 }
 
@@ -353,8 +353,8 @@ Author URI: http://www.zerotheme.com/
 	background-image:url(../img/logo2_dark_background.png);
 }
 .zerogrid-full #logo1 img, #logo2 img, #logo3 img, #logo4 img {
-	height:200px;
-	width: 200px;
+	height:100px;
+	width: 100px;
 	vertical-align:middle;
 }
 
@@ -390,10 +390,10 @@ Author URI: http://www.zerotheme.com/
 	 width:45%!important;
 }
 .zerogrid-full .context {
-	margin: 30px 50px 20px 10% !important;
+	margin: 30px 25% 20px 25% !important;
 }
 .zerogrid-full .text-section {
-	margin-left: 50px !important;
+	margin-left: 140px !important;
 }
 .zerogrid-full .text-success {
 	margin-left: 25px !important; 
@@ -1213,7 +1213,7 @@ body {
 	line-height: 1;
 }
 .zerogrid-full footer {
-	background-color: #0E0D0D;
+	background-color: #221A26;
 	height: 50px;
 	clear: both;
 	opacity:0.8;
@@ -1262,10 +1262,7 @@ table {
 .zerogrid-full .n4sbutton {
 	margin-bottom: 40px;
 	margin-top: 100px;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #cccacc) );
-	background: -moz-linear-gradient( center top, #ededed 5%, #cccacc 100% );
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#cccacc');
-	background-color: #ededed;
+	background-color: #fff;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-left-radius: 5px;
@@ -1283,19 +1280,17 @@ table {
 	display: inline-block;
 	color: #4f484f;
 	font-family:kompani;
-	font-size: 16px;
+	font-size: 15px;
 	font-style: normal;
-	height: 45px;
-	line-height: 45px;
-	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	width:150px;
 	text-decoration: none;
 	text-align: center;
 }
 .zerogrid-full .n4sbutton:hover {
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cccacc), color-stop(1, #ededed) );
-	background: -moz-linear-gradient( center top, #cccacc 5%, #ededed 100% );
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccacc', endColorstr='#ededed');
-	background-color: #cccacc;
+		position: relative;
+	top: 1px;
 }
 .zerogrid-full .n4sbutton:active {
 	position: relative;
@@ -1331,7 +1326,6 @@ table {
 	text-align: center;
 }
 .zerogrid-full .ourwork-button:hover {
-	background-color: #d1cfd1;
 	color:#454545;
 	top:1px;
 	cursor:pointer;

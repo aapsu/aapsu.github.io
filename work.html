@@ -29,8 +29,7 @@
     $(document).ready(function() {
         // Dock the navbar to the top of the window when scrolled past the N4S logo and header text.
         $('.nav').scrollToFixed({
-			preFixed: function() { $(this).find('.nav').css('background-color', 'blue'); }, 
-			postFixed: function() { $(this).find('.nav').css('background-color', 'red'); }
+			
 			});
     });
 </script>
@@ -157,13 +156,13 @@
   </div>
     </div>
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>--> 
-<script type="text/javascript" src="js/smoothscroll.js"></script> 
+<!--<script type="text/javascript" src="js/smoothscroll.js"></script> 
 <script>
         $('body').mousemove(function(e){
     var amountMovedX = (e.pageX * -1 / 50);
     var amountMovedY = (e.pageY * -1 / 50);
     $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
 });
-        </script>
+        </script>-->
 </body>
 </html>

@@ -192,7 +192,22 @@ Author URI: http://www.zerotheme.com/
 	line-height: 36px !important;
 	margin:0 30px !important;
 }
-
+.zerogrid .nav.scroll-to-fixed-fixed ul li {
+	top: 10px !important;
+	display:inline-block;
+}
+.zerogrid .nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	text-align:right;
+}
+.zerogrid .nav ul li {
+	display: inline-block;
+	position:relative;
+	top: -50px !important;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -262,7 +277,22 @@ height: 320px !important;
 	line-height: 36px !important;
 	margin:0 30px !important;
 }
-
+.zerogrid .logo {
+	display: block !important;
+	margin: 0px 0px 20px !important;
+}
+.zerogrid .nav {
+	border-bottom:0px !important;
+}
+.zerogrid .nav.scroll-to-fixed-fixed ul li {
+	top: 0px !important;
+	right: 0% !important;
+}
+.zerogrid .nav ul li {
+	display: inline-block;
+	position:relative;
+	top: 0px !important;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
@@ -314,6 +344,22 @@ height: 320px !important;
 	font-size: 30px !important;
 	line-height: 36px !important;
 	margin:0 30px !important;
+}
+.zerogrid .logo {
+	display: block !important;
+	margin: 0px 0px 50px !important;
+}
+.zerogrid .nav {
+	border-bottom:0px !important;
+}
+.zerogrid .nav.scroll-to-fixed-fixed ul li {
+	top: 0px !important;
+	right: 0% !important;
+}
+.zerogrid .nav ul li {
+	display: inline-block;
+	position:relative;
+	top: 0px !important;
 }
 }
 
@@ -386,6 +432,21 @@ height: 320px !important;
 } 
 .zerogrid .right-form {
 	display:none !important;
+}
+.zerogrid .logo {
+	display: none !important;
+}
+.zerogrid .nav {
+	border-bottom:0px !important;
+}
+.zerogrid .nav.scroll-to-fixed-fixed ul li {
+	top: 0px !important;
+	right: 0% !important;
+}
+.zerogrid .nav ul li {
+	display: inline-block;
+	position:relative;
+	top: 0px !important;
 }
 
 }
@@ -867,25 +928,36 @@ table {
 }
 /*Definitions how navbar looks after its fixed to top*/
 .zerogrid .nav.scroll-to-fixed-fixed { 
-    background-image:url(../img/bg_low.jpg);
+    background-color: #000;
+	height: 50px;
+	border: 0;
 }
 .zerogrid .scroll-to-fixed-fixed {
 	width: 100% !important;
 	left: 0 !important; 
+	text-align: center !important;
+}
+.zerogrid .nav.scroll-to-fixed-fixed ul li {
+	top: 10px;
+	display:inline-block;
+}
+.zerogrid .nav.scroll-to-fixed-fixed ul {
+	 width:100%;
+	 text-align:center;
 }
 .zerogrid .nav ul {
 	list-style: none;
 	padding: 0px;
-
 	margin: 0px;
 	font-weight: bold;
 	text-align:right;
 }
 .zerogrid .nav ul li {
 	display: inline-block;
+	position:relative;
+	top: -60px;
 }
 .zerogrid .nav ul li:hover {
-	background-color:#000;
 }
 .zerogrid .nav ul li a {
 	display: block;
@@ -899,10 +971,12 @@ table {
 .zerogrid .nav ul li a:hover {
 	color: #F75423;
 	font-weight:200;
-
+	text-decoration:underline;
 }
 
-@media (max-width: 720px) {
+
+
+@media (max-width: 767px) {
 .zerogrid .example-header .container {
 	width: 100%;
 }
