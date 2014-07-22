@@ -302,7 +302,9 @@ Author URI: http://www.zerotheme.com/
 	text-align: center;
 	line-height: 32px;
 	color: #fff;
-	font-size: 24px;
+	font-size: 20px;
+	margin-left:10px;
+	margin-right:10px;
 	font-family:webly;
 	background-color: #transparent;
 	visibility:hidden;
@@ -401,7 +403,7 @@ Author URI: http://www.zerotheme.com/
 	line-height: 506px !important;	
 }
 .zerogrid-full .logoshere {
-	margin-top: 100px !important;
+	margin-top: 80px !important;
 }
 .zerogrid-full .col-full-example4 {
 	height:300px !important;
@@ -1007,6 +1009,13 @@ iframe {
 .zerogrid-full .ourwork-button {
 	margin-top: 20px !important;
 }
+#teamboard-pic, #teamboard-pic2, #teamboard-pic3, #teamboard-pic4 {
+	height: 120px !important;
+}
+#logo1, #logo2, #logo3, #logo4 {
+	background-color:#000 !important;
+	background-image:none !important;
+}
 }
 
 /* Normal smartphones with smaller screens*/
@@ -1255,6 +1264,17 @@ iframe {
 #teamboard-pic, #teamboard-pic2, #teamboard-pic3, #teamboard-pic4 {
 	display:none !important;
 	}
+#photo1, #photo2, #photo3, #photo4 {
+	display: none !important;
+}
+#logo1, #logo2, #logo3, #logo4 {
+	background-color:#000 !important;
+	background-image:none !important;
+}
+.zerogrid-full #logo1 img, #logo2 img, #logo3 img, #logo4 img {
+	height:50px !important;
+	width: 50px !important;
+}
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1317,6 +1337,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+#black {
+	background-color:#000000 !important;
+}
 
 /* CSS Styles for all the three buttons*/
 
@@ -1364,7 +1387,7 @@ table {
 	top: 1px;
 }
 .zerogrid-full .ourwork-button {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 100px;
 	background-color: #fff;
 	-webkit-border-top-left-radius: 5px;
@@ -1627,10 +1650,13 @@ table {
 	background-color: #fff !important;
 	font-weight: bold !important;
 }
-
-	
-	
-
+i {
+	margin-left: 15px;
+	color: #4d4d4d;
+}
+i:hover {
+	color: #F75432;
+}
 
 /* CSS styling for font-face fonts */
 

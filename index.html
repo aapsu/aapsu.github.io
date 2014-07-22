@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="css/zerogrid.css" rel="stylesheet" />
     <link href="css/zerogrid-full.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.tabSlideOut.v1.4.1.js" type="text/javascript"></script>
     <script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
@@ -28,8 +29,6 @@
     $(document).ready(function() {
         // Dock the navbar to the top of the window when scrolled past the N4S logo and header text.
         $('.nav').scrollToFixed({
-			preFixed: function() { $(this).find('.nav').css('background-color', 'blue'); }, 
-			postFixed: function() { $(this).find('.nav').css('background-color', 'red'); }
 			});
     });
 </script>
@@ -38,11 +37,11 @@
 <div class="zerogrid" id="top">
       <div class="row">
     <div class="col-full-example1">
-          <div class="wrap-col-header"><img class="logo" alt="N4S logo" src="img/n4sjamk_logo.png">
+          <div class="wrap-col-header"><img class="logo" alt="N4S logo" src="img/n4sjamk_logo.svg">
       </div>
       	<nav class="nav">
               <ul>
-             <a href="#top" class="smoothScroll"><img src="img/n4sjamk_logo.png" style="height:40px; display:none;"></a>
+             <a href="#top" class="smoothScroll"><img src="img/n4sjamk_logo_notext.svg" style="height:40px; display:none;"></a>
             <li><a href="#project" class="smoothScroll">PROJECT</a></li>
             <li><a href="work.html" class="smoothScroll">WORKS</a></li>
             <li><a href="#lorem" class="smoothScroll">CONTACT</a></li>
@@ -53,7 +52,7 @@
             </nav>
           <div class="col-1-2-transparent">
         <p class="text">&ldquo;Challenging visionaries to continuous development.&rdquo;</p>
-        
+        <!--<i class="fa fa-arrow-circle-down fa-3x"></i>-->
       </div>
         </div>
   </div>
@@ -129,7 +128,7 @@
         </div>
   </div>
     </div>
-<div class="zerogrid-full">
+<div class="zerogrid-full" id="black">
       <!--<div class="row">-->
           <div class="col-full-all-logos"><img src="img/logo1_white.png" alt="logo1-white"><img src="img/logo2_white.png" alt="logo2-white"><img src="img/logo3_white.png" alt="logo3-white"></div>
           <div class="col-1-4-1" id="logo1">
@@ -180,7 +179,7 @@
 				<input type="submit" name="submit" value="Roger!" class="ourwork-button submit">	
 			</form>
               <br>
-              <a href="http://twitter.com/"><img src="img/icons/twitter.PNG" alt="twitter-icon"></a><a href="http://gitlab.n4sjamk.org"><img src="img/icons/gitlab.PNG" alt="gitlab-icon"></a><a href="#"><img src="img/icons/eshop.PNG" alt="eshop-icon"></a>
+              <a href="http://twitter.com/"><i class="fa fa-twitter-square fa-3x"></i></a><a href="http://github.com/N4SJAMK"><i class="fa fa-github-square fa-3x"></i></a><!--<a href="#"><i class="fa fa-dropbox fa-3x"></i></a>-->
               <!--<a href="http://www.facebook.com"><img src="img/facebook.png" style="margin-right:10px;"></a> <a href="http://www.twitter.com"><img src="img/twitter.png"></a>--> </div>
       </div>
         </div>

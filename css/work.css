@@ -183,15 +183,19 @@ body {
 }
 .zerogrid-full #teamboard-pic:hover {
 	background-image:url(../img/teamboard_btn_orange.png);
+	transition: background-image 0.25s ease-in-out;
 }
 .zerogrid-full #teamboard-pic2:hover {
 	background-image:url(../img/toolbar_btn_orange.png);
+	transition: background-image 0.25s ease-in-out;
 }
 .zerogrid-full #teamboard-pic3:hover {
 	background-image:url(../img/teamboard_btn_orange.png);
+	transition: background-image 0.25s ease-in-out;
 }
 .zerogrid-full #teamboard-pic4:hover {
 	background-image:url(../img/unity_btn_orange.png);
+	transition: background-image 0.25s ease-in-out;
 }
 #teamboard-pic:hover .logoshere, #teamboard-pic2:hover .logoshere, #teamboard-pic3:hover .logoshere, #teamboard-pic4:hover .logoshere {
 	visibility: visible;
