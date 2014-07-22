@@ -217,6 +217,10 @@ body {
 .zerogrid .nav.scroll-to-fixed-fixed ul img {
 	display: inline-block !important;
 }
+.zerogrid .logo {
+	width: 200px !important;
+	height:120px !important;
+}
 }
 
 @media only screen and (max-width: 767px) {

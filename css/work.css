@@ -12,13 +12,6 @@ body {
 .zerogrid .nav {
 	border-bottom: 0px !important;
 }
-.zerogrid .logo {
-	height: 150px;
-	width: 253px;
-}
-.zerogrid-full .logoshere {
-	line-height: 230px;
-}
 .viewmore-btn {
 	background-color:transparent;
 	-webkit-border-top-left-radius:4px;
@@ -165,7 +158,7 @@ body {
 }
 .zerogrid-full #teamboard {
 	background-image:url(../img/teamboard_picture.jpg);
-	height: 400px;
+	height: 700px;
 	background-size:cover;
 }
 .zerogrid-full #teamboard-pic {
@@ -179,7 +172,7 @@ body {
 	height: 200px;
 }
 .zerogrid-full #teamboard-pic3 {
-	background-image:url(../img/teamboard_btn_orange.png);
+	background-image:url(../img/teamboard_btn.png);
 	background-size:cover;
 	height: 200px;
 }
@@ -187,6 +180,22 @@ body {
 	background-image:url(../img/teamboard_picture.jpg);
 	background-size:cover;
 	height: 200px;
+}
+.zerogrid-full #teamboard-pic:hover {
+	background-image:url(../img/teamboard_btn_orange.png);
+}
+.zerogrid-full #teamboard-pic2:hover {
+	background-image:url(../img/toolbar_btn_orange.png);
+}
+.zerogrid-full #teamboard-pic3:hover {
+	background-image:url(../img/teamboard_btn_orange.png);
+}
+.zerogrid-full #teamboard-pic4:hover {
+	background-image:url(../img/unity_btn_orange.png);
+}
+#teamboard-pic:hover .logoshere, #teamboard-pic2:hover .logoshere, #teamboard-pic3:hover .logoshere, #teamboard-pic4:hover .logoshere {
+	visibility: visible;
+    opacity: 1;
 }
 .zerogrid-full #unity {
 	background-image:url(../img/unity_mockup_logo.jpg);
