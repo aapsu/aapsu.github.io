@@ -623,6 +623,11 @@ Author URI: http://www.zerotheme.com/
 	height: 200px;
 	line-height: 200px;
 }
+.zerogrid-full .logoshere {
+	visibility: visible !important;
+    opacity: 1 !important;
+	font-size: 20px !important;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -645,7 +650,11 @@ height: 320px !important;
 .zerogrid-full footer {
 	opacity: 1.0 !important;
 }
-
+.zerogrid-full .logoshere {
+	visibility: visible !important;
+    opacity: 1 !important;
+	font-size: 20px !important;
+}
 }
 
 @media only screen and (min-width: 620px) and (max-width: 767px) {
