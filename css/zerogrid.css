@@ -580,7 +580,7 @@ body {
 
 .zerogrid .text {
 	line-height: 68px;
-	color: #CCCCCC;
+	color: #fff;
 	font-size: 58px;
 	padding-left: 50px;
 	padding-right: 60px;
@@ -935,7 +935,7 @@ table {
 	width: 100%;
 	position: relative;
 	z-index:10000;
-	border-bottom: 2px solid #CCCCCC;
+	border-bottom: 2px solid #FFFFFF;
 }
 /*Definitions how navbar looks after its fixed to top*/
 .zerogrid .nav.scroll-to-fixed-fixed { 
@@ -983,7 +983,7 @@ table {
 	padding: 10px 20px;
 	text-decoration: none;
 	color: #fff;
-	font-family:webly;
+	font-family:source;
 	font-weight:lighter;
 	font-size:12px;
 }
