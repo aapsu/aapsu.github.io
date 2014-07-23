@@ -20,8 +20,6 @@ Author URI: http://www.zerotheme.com/
 	clear: both;
 	visibility: hidden;
 }
-.zerogrid .row {
-}
 .zerogrid .row:before, .row:after {
 	content: '\0020';
 	display: block;
@@ -35,7 +33,7 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid .row {
 	zoom: 1;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .zerogrid .wrap-col {
 	margin: 10px;
@@ -147,10 +145,10 @@ Author URI: http://www.zerotheme.com/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 .zerogrid {
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 body {
-	background-image:url(../img/bg_low4_tablet.jpg) !important;
+	background-image:url(../img/n4sjamk_background_pic.jpg); !important;
 }
 .zerogrid .col-1-3, .zerogrid .col-2-3 {
 	width: 50%;
@@ -243,7 +241,7 @@ height: 320px !important;
 @media only screen and (min-width: 620px) and (max-width: 767px) {
 .zerogrid {
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .zerogrid .col-1-3, .zerogrid .col-2-3 {
 	width: 100%;
@@ -314,7 +312,7 @@ height: 320px !important;
 @media only screen and (min-width: 480px) and (max-width: 619px) {
 .zerogrid {
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .zerogrid .col-1-3, .zerogrid .col-2-3 {
 	width: 100%;
@@ -480,7 +478,7 @@ height: 320px !important;
 
 
 body {
-	background-image:url(../img/bg_low4.jpg);
+	background-image:url(../img/n4sjamk_background_pic.png);
 	margin: 0;
 	background-attachment:fixed;
 	width:100%;
@@ -522,13 +520,13 @@ body {
 	border-bottom: 3px #F75423 solid;
 }
 .zerogrid .col-full-example1 {
-	background-image:url(../img/bg_low.jpg);
+	/*background-image:url(../img/bg_low.jpg);*/
 	background-repeat:repeat-x;
 	height: 1000px;
 	clear: both;
 }
 .zerogrid .col-full-example2 {
-	background-image:url(../img/bg_low.jpg);
+	/*background-image:url(../img/bg_low.jpg);*/
 	background-repeat:no-repeat;
 	height: 300px;
 	clear: both;
@@ -538,7 +536,7 @@ body {
 	height: 320px;
 }
 .zerogrid .col-full-example5 {
-	background-image:url(../img/bg_low.jpg);
+	/*background-image:url(../img/bg_low.jpg);*/
 	background-repeat:no-repeat;
 	height: 550px;
 	clear: both;
@@ -839,7 +837,7 @@ table {
 .zerogrid #sayhello-button {
 	margin-top: 80px;
 	color: #F75423;
-	background-color: #fff;
+	background-color: transparent;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-left-radius: 5px;
@@ -990,7 +988,6 @@ table {
 .zerogrid .nav ul li a:hover {
 	color: #F75423;
 	font-weight:200;
-	text-decoration:underline;
 }
 
 
