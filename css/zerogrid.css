@@ -439,7 +439,7 @@ height: 320px !important;
 }
 
 .zerogrid .col-full-example5 {
-	height:400px !important;
+	height:300px !important;
 }
 
 .zerogrid .context {
@@ -545,7 +545,7 @@ body {
 .zerogrid .col-full-example5 {
 	/*background-image:url(../img/bg_low.jpg);*/
 	background-repeat:no-repeat;
-	height: 550px;
+	height: 450px;
 	clear: both;
 }
 .zerogrid .col-full-example4 {

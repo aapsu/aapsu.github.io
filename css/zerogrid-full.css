@@ -453,7 +453,7 @@ Author URI: http://www.zerotheme.com/
 	background-color: #fff;
 }
 .zerogrid-full .col-1-3, .zerogrid-full .col-2-3, .zerogrid-full .col-1-3-1 {
-	width: 50%!important;
+	width: 33.33%!important;
 }
 .zerogrid-full .col-1-2-photo {
 	display:block;
@@ -627,6 +627,15 @@ Author URI: http://www.zerotheme.com/
 	visibility: visible !important;
     opacity: 1 !important;
 	font-size: 20px !important;
+}
+.base h3 {
+	margin-left: 50px !important;
+}
+.base p {
+	margin-left: 50px !important;
+}
+.base .twitter {
+	margin-left: 50px !important;
 }
 }
 
@@ -1017,7 +1026,8 @@ iframe {
 	line-height: 30px !important;
 }
 .zerogrid-full .ourwork-button {
-	margin-top: 20px !important;
+	margin-top: 10px !important;
+    margin-bottom: 20px !important;
 }
 #teamboard-pic, #teamboard-pic2, #teamboard-pic3, #teamboard-pic4 {
 	height: 120px !important;
@@ -1154,10 +1164,6 @@ iframe {
 .zerogrid-full .col-full-example5 {
 	height:400px !important;
 }
-iframe {
-	display: none !important; 
-}
-
 .zerogrid-full .context {
 	margin:30px 30px 10px 30px !important;
 	font-size:18px;
@@ -1183,9 +1189,12 @@ height: 400px!important;
 	height: auto !important;
 }
 iframe {
-	height:150px!important;
+	height:200px!important;
 	width: 100% !important;
-	margin-bottom: 25px !important;
+	margin: 0 !important;
+}
+.social {
+	height: 200px !important;
 }
 .zerogrid-full .n4sbutton-wrapper {
 	background-color: #FFF;
@@ -1285,6 +1294,33 @@ iframe {
 	height:50px !important;
 	width: 50px !important;
 }
+.base, .form {
+	height:200px !important;
+	}
+.base h3 {
+	text-align:center !important;
+	margin:0 !important;
+}
+.base p {
+	text-align: center !important;
+	margin:0 !important;
+}
+.base .twitter {
+	margin-left:33% !important;
+	text-align:center !important;
+}
+i {
+	text-align:center !important; 
+	margin-top: 20px !important;
+}
+.field1 {
+	margin-top: 20px !important;
+}
+.arrow {
+	margin-top: 100px !important;
+	text-align:center !important;
+	margin-left: 45% !important;
+}
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1297,7 +1333,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 iframe {
 	width: 100%;
-	height:300px;
+	height:270px;
+	margin: 15px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1661,9 +1698,8 @@ i:hover {
 	margin-top: -50px;
 }
 .arrow {
-	margin-top: 500px;
+	margin-top: 650px;
 	color:#fff;
-	margin-left: 0;
 }
 .arrow:hover {
   -webkit-animation: bounce 1s;
@@ -1685,7 +1721,7 @@ i:hover {
 	font-size:28px;
 	color: #F75432;
 	margin-top: 50px;
-	margin-left: 200px;
+	margin-left: 150px;
 	font-family: texgyre;
 }
 .base p {
@@ -1693,11 +1729,11 @@ i:hover {
 	font-size:20px;
 	font-family: source;
 	color:#4d4d4d;
-	margin-left: 200px;
+	margin-left: 150px;
 }
 .base .twitter {
 	text-align: left;
-	margin-left: 200px;
+	margin-left: 150px;
 }
 .social {
 	text-align:center;
@@ -1714,15 +1750,6 @@ i:hover {
 .form .field1{
 	margin-top: 50px;
 }
-/* disbales mouse events on map*/
-.overlay {
-   background:transparent; 
-   position:absolute; 
-   width:100%;
-   height:300px;
-   top:300px;
-   margin-top:-300px; 
-}	
 /* CSS styling for font-face fonts */
 
 
