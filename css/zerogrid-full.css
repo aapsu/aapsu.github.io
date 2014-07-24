@@ -628,6 +628,10 @@ Author URI: http://www.zerotheme.com/
     opacity: 1 !important;
 	font-size: 20px !important;
 }
+iframe {
+	margin:0 !important;
+	height: 300px !important;	
+}
 .base h3 {
 	margin-left: 50px !important;
 }
@@ -926,9 +930,12 @@ height: 550px!important;
 	height: auto !important;
 }
 iframe {
-	height:150px!important;
+	height:300px!important;
 	width: 100% !important;
-	margin-bottom: 25px !important;
+	margin: 0 !important;
+}
+.form, .base {
+	height: 255px !important;
 }
 .zerogrid-full .text-section {
 	margin: 20px 50px 20px 50px !important;
@@ -1295,23 +1302,17 @@ iframe {
 	width: 50px !important;
 }
 .base, .form {
-	height:200px !important;
+	height:250px !important;
 	}
-.base h3 {
-	text-align:center !important;
-	margin:0 !important;
+.base h3, .form h3 {
+	margin-left: 75px !important;
+	margin-top: 20px !important;
 }
 .base p {
-	text-align: center !important;
-	margin:0 !important;
+	margin-left: 75px !important;
 }
 .base .twitter {
-	margin-left:33% !important;
-	text-align:center !important;
-}
-i {
-	text-align:center !important; 
-	margin-top: 20px !important;
+	margin-left:75px !important;
 }
 .field1 {
 	margin-top: 20px !important;
@@ -1320,6 +1321,13 @@ i {
 	margin-top: 100px !important;
 	text-align:center !important;
 	margin-left: 45% !important;
+}
+.form {
+	text-align:left !important;
+	margin-left: 75px !important;
+}
+.form input {
+	margin-left: 75px !important;
 }
 }
 
@@ -1468,6 +1476,49 @@ table {
 	cursor:pointer;
 }
 .zerogrid-full .ourwork-button:active {
+	-webkit-box-shadow: 0px 2px 0px #F75423;
+    -moz-box-shadow: 0px 2px 0px #F75423;
+    box-shadow: 0px 2px 0px #F75423;
+    position:relative;
+    top:7px;
+}
+.zerogrid-full .roger-button {
+	margin-bottom: 10px;
+	margin-top: 100px;
+	background-color: #fff;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	text-indent: 1.48px;
+	border: 2px solid #f75423;
+	display: inline-block;
+	color: #f75423;
+	font-family: source;
+	font-size: 21px;
+	font-style: normal;
+	height: 49px;
+	line-height: 49px;
+	width: 179px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: -30px;
+}
+.zerogrid-full .roger-button:hover {
+	color:#fff;
+	background-color:#f75423;
+	top:1px;
+	cursor:pointer;
+}
+.zerogrid-full .roger-button:active {
 	-webkit-box-shadow: 0px 2px 0px #F75423;
     -moz-box-shadow: 0px 2px 0px #F75423;
     box-shadow: 0px 2px 0px #F75423;
@@ -1724,6 +1775,13 @@ i:hover {
 	margin-left: 150px;
 	font-family: texgyre;
 }
+.form h3 {
+	font-size:28px;
+	color: #F75432;
+	margin-top: 50px;
+	margin-left: -110px;
+	font-family: texgyre;
+}
 .base p {
 	text-align: left;
 	font-size:20px;
@@ -1748,7 +1806,7 @@ i:hover {
 }
 
 .form .field1{
-	margin-top: 50px;
+	margin-top: 10px;
 }
 /* CSS styling for font-face fonts */
 
