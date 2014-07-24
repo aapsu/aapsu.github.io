@@ -661,8 +661,7 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 }
 .fa-arrow-circle-down:before {
 	content: "\f0ab";
-	margin-left: 200px;
-	margin-top: 600px;
+	margin-top: 800px;
 }
 .fa-globe:before {
 	content: "\f0ac"

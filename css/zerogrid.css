@@ -290,7 +290,10 @@ height: 320px !important;
 }
 .zerogrid .logo {
 	display: block !important;
-	margin: 0px 0px 20px !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	margin-left: auto !important;
+	margin-right:auto !important;
 }
 .zerogrid .nav {
 	border-bottom:0px !important;
@@ -361,7 +364,10 @@ height: 320px !important;
 }
 .zerogrid .logo {
 	display: block !important;
-	margin: 0px 0px 20px !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	margin-left: auto !important;
+	margin-right:auto !important;
 }
 .zerogrid .nav {
 	border-bottom:0px !important;
@@ -395,8 +401,7 @@ height: 320px !important;
 	
 .zerogrid .col-1-2-photo {
 	display:none;
-}	
-	
+}
 .zerogrid .ourvision-text {
 	font-size: 16px !important;
 	padding-left: 20px !important;
@@ -454,6 +459,8 @@ height: 320px !important;
 	display: block !important;
 	margin-top: 0 !important;
 	margin-bottom: 10px !important;
+	margin-left: auto !important;
+	margin-right:auto !important;
 }
 .zerogrid .nav {
 	border-bottom:0px !important;
@@ -503,10 +510,10 @@ body {
 	width: 25%;
 	min-height: 50px;
 	min-width: 100px;
-	max-height: 150px;
+	max-height: 100px;
 	max-width: 300px;
 	height: 25%;
-	margin: 10px 0px -30px 10px;
+	margin: 20px 0px -20px 10px;
 }
 .zerogrid .wrap-col-header h2 {
 	font-size:26px;
@@ -808,7 +815,7 @@ table {
 	border: 1px solid #f75423;
 	display: inline-block;
 	color: #f75423;
-	font-family: Times New Roman;
+	font-family: source;
 	font-size: 18px;
 	font-weight: bold;
 	font-style: normal;
@@ -836,7 +843,7 @@ table {
 }
 .zerogrid #sayhello-button {
 	margin-top: 80px;
-	color: #F75423;
+	color: #fff;
 	background-color: transparent;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
@@ -851,15 +858,15 @@ table {
 	-moz-border-radius-bottomleft: 5px;
 	border-bottom-left-radius: 5px;
 	text-indent: 1.48px;
-	border: 2px solid #F75423;
+	border: 2px solid #FFF;
 	display: inline-block;
-	font-family: texgyre;
-	font-size: 20px;
+	font-family: source;
+	font-size: 21px;
 	font-weight: normal;
 	font-style: normal;
-	height: 36px;
-	line-height: 36px;
-	width: 148px;
+	height: 49px;
+	line-height: 49px;
+	width: 179px;
 	text-decoration: none;
 	text-align: center;
 }
@@ -867,6 +874,7 @@ table {
 	color:#fff;
 	background-color:#F75423;
 	top:1px;
+	border-color:#F75432;
 	cursor:pointer;
 }
 .zerogrid #sayhello-button:active {
@@ -937,8 +945,8 @@ table {
 }
 /*Definitions how navbar looks after its fixed to top*/
 .zerogrid .nav.scroll-to-fixed-fixed { 
-    background-color: #000;
-	height: 50px;
+    background-color: #221A26;
+	height: 75px;
 	border: 0;
 	transition: all 200ms linear;
 }
@@ -948,7 +956,7 @@ table {
 	text-align: center !important;
 }
 .zerogrid .nav.scroll-to-fixed-fixed ul li {
-	top: 10px;
+	top: 20px;
 	display:inline-block;
 	
 }
@@ -960,7 +968,7 @@ table {
 	 display:inline-block;
 	 position: absolute !important;
 	 float: left !important;
-	 margin: 5px 0px 10px -100px !important;
+	 margin: 15px 0px 10px -100px !important;
 }
 .zerogrid .nav ul {
 	list-style: none;
@@ -972,7 +980,7 @@ table {
 .zerogrid .nav ul li {
 	display: inline-block;
 	position:relative;
-	top: -60px;
+	top: -40px;
 }
 .zerogrid .nav ul li:hover {
 }

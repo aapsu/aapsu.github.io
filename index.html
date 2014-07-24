@@ -6,25 +6,9 @@
     <link href="css/zerogrid.css" rel="stylesheet" />
     <link href="css/zerogrid-full.css" rel="stylesheet"/>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.tabSlideOut.v1.4.1.js" type="text/javascript"></script>
     <script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
-    <script>
-    $(function(){
-        $('.slide-out-div').tabSlideOut({
-            tabHandle: '.handle',                     //class of the element that will become your tab
-            pathToTabImage: 'img/empty.png', //path to the image for the tab *required*
-            imageHeight: '5px',                      //height of tab image *required*
-            imageWidth: '5px',                      //width of tab image *required*    
-            tabLocation: 'bottom',                      //side of screen where tab lives, top, right, bottom, or left
-            speed: 400,                               //speed of animation
-            action: 'click',                          //options: 'click' or 'hover', action to trigger animation
-            topPos: '2700px',                          //position from the top/ use if tabLocation is left or right
-            leftPos: 'center',                          //position from left/ use if tabLocation is bottom or top
-            fixedPosition: false                     //options: true makes it stick(fixed position) on scroll
-        });
-	});
-    </script>
    <script>
     $(document).ready(function() {
         // Dock the navbar to the top of the window when scrolled past the N4S logo and header text.
@@ -45,15 +29,16 @@
             <li><a href="#project" class="smoothScroll">PROJECT</a></li>
             <li><a href="#our" class="smoothScroll">WORKS</a></li>
             <li><a href="#partners" class="smoothScroll">PARTNERS</a></li>
-            <li><a href="#lorem" class="smoothScroll">CONTACT</a></li>
+            <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
             <li><a href="#" class="smoothScroll">BLOG</a></li>
             <li><a href="#" class="smoothScroll">WIKI</a></li>
           </ul>
             </nav>
           <div class="col-1-2-transparent">
         <p class="text">&ldquo;Challenging visionaries to continuous development.&rdquo;</p>
-        <!--<i class="fa fa-arrow-circle-down fa-3x"></i>-->
+        
       </div>
+      <a href="#project" class="smoothScroll"><i class="fa fa-arrow-circle-down fa-3x arrow"></i></a>
         </div>
   </div>
     </div>
@@ -69,7 +54,7 @@
         </div>
   </div>
     </div>
-<div class="zerogrid anchor" id="moren4s">
+<div class="zerogrid" id="moren4s">
       <div class="row">
     <div class="col-full-example2">
           <div class="col-1-3">
@@ -81,17 +66,29 @@
 <div class="zerogrid-full">
       <div class="row">
     <div class="col-1-4-1" id="photo1">
-          <p class="logoshere">Lorem ipsum dolor sit blah yeah.</p>
+          <p class="logoshere">John Doe<br><span class="subtext">Marketing executive</span></p>
         </div>
     <div class="col-1-4" id="photo2">
-          <p class="logoshere">Here sometheng awesome, eh?</p>
+          <p class="logoshere">Chad Sharp<br><span class="subtext">Lead designer</span></p>
         </div>
     <div class="col-1-4" id="photo3">
-          <p class="logoshere">John Doe was here.</p>
+          <p class="logoshere">Danny Trello<br><span class="subtext">Junior developer</span></p>
         </div>
     <div class="col-1-4" id="photo4">
-          <p class="logoshere">This was made with power of coffee.</p>
+          <p class="logoshere">Chad DeCoder<br><span class="subtext">Proggrammer</span></p>
           </div>
+      <div class="col-1-4-1" id="photo3">
+          <p class="logoshere">Ryan Ruby<br><span class="subtext">Marketing executive</span></p>
+        </div>
+    <div class="col-1-4" id="photo1">
+          <p class="logoshere">Barry Puppet<br><span class="subtext">Lead designer</span></p>
+        </div>
+    <div class="col-1-4" id="photo4">
+          <p class="logoshere">Sven Jekyll<br><span class="subtext">Junior developer</span></p>
+        </div>
+    <div class="col-1-4" id="photo2">
+          <p class="logoshere">Matthew Coderick<br><span class="subtext">Proggrammer</span></p>
+          </div>     
     <div class="col-full-example4" id="our">
           <div class="col-1-2">
         <p class="text-success">Our way to success.</p>
@@ -122,7 +119,7 @@
 <div class="zerogrid">
       <div class="row">
     <div class="col-full-example2">
-          <div class="col-1-3 anchor" id="partners">
+          <div class="col-1-3" id="partners">
         <p class="text-agile">Our partners</p>
       </div>
         </div>
@@ -149,46 +146,50 @@
       <div class="row">
     <div class="col-full-example5" id="lorem">
           <p class="ourvision-text">&ldquo;Our <span style="color:#F75423">vision</span> here, how we make <span style="color:#F75423">better future.</span> Nullam ornare risus nec magna aliquam, vitae tristique nisi auctor. Nullam a sem <span style="color:#F75423">sit amet velit aliquet</span> eleifend. Suspendisse venenatis sem in risus vestibulum, non aliquam lectus sodales.&rdquo;</p>
-          <div class="n4sbutton-wrapper"> <a id="sayhello-button" class="button">Say hello</a> </div>
+          <div class="n4sbutton-wrapper"> <a id="sayhello-button" href="#contact" class="button smoothScroll">Say hello</a></div>
         </div>
   </div>
     </div>
+<div class="zerogrid-full">
+      <div class="row">
+        	<div class="col-full">
+            	<div class="overlay" onClick="style.pointerEvents='none'"></div>
+            	<!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3716.6685253285527!2d25.7641276203206!3d62.23998892771814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfi!2sfi!4v1405323611806"></iframe>-->
+            </div>
+                        <div class="col-1-3 social" id="contact">
+            	<!--<a href="http://twitter.com/"><i class="fa fa-twitter-square fa-3x"></i></a><a href="http://github.com/N4SJAMK"><i class="fa fa-github-square fa-3x"></i></a><a href="#"><i class="fa fa-dropbox fa-3x"></i></a>--><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3716.6685253285527!2d25.7641276203206!3d62.23998892771814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfi!2sfi!4v1405323611806"></iframe>
+            </div>
+            <div class="col-1-3 base">
+              <h3>Base</h3>
+              <br>
+          	  <p>Piippukatu 2</p>
+              <p>40100 Jyvaskyla, Finland</p>
+              <br>
+              <a href="http://twitter.com/"><i class="fa fa-twitter-square fa-3x twitter"></i></a><a href="http://github.com/N4SJAMK"><i class="fa fa-github-square fa-3x"></i></a><a href="#"><i class="fa fa-dropbox fa-3x"></i></a>
+            </div>
+
+            <div class="col-1-3 form">
+            	<form method="POST" action="http://smvpelkonen.dy.fi/delete/php_form/sendForm.php">
+				<input type="email" class="field1" name="email" size="33" placeholder="Your email" required=""><br>
+				<input type="text" name="message" size="33" placeholder="Say hello..." style="height:75px;" required=""><br>
+				<input type="submit" name="submit" value="Roger!" class="ourwork-button submit">	
+			</form>
+            </div>
+        </div>
+      </div>
 <div class="zerogrid-full">
       <div class="row">
     <div class="col-full">
           <footer>
         <p>&copy;N4S@JAMK 2014. All rights reserved.</p>
       </footer>
-          <div class="slide-out-div"><a class="handle" href="http://link-for-non-js-users.html">Content</a>
-        <div class="left-form">
-              
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3716.6685253285527!2d25.7641276203206!3d62.23998892771814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfi!2sfi!4v1405323611806"></iframe>
-            </div>
-        <a class="button close">X</a>
-        <div class="right-form">
-              <h3>Base</h3>
-              <br>
-          	  <p>Piippukatu 2</p>
-              <p>40100 Jyvaskyla, Finland</p>
-              <br>
-              <h3>Say hello!</h3>
-              <br>
-              <form method="POST" action="http://smvpelkonen.dy.fi/delete/php_form/sendForm.php">
-				<input type="email" name="email" size="33" placeholder="Your email" required=""><br>
-				<input type="text" name="message" size="33" placeholder="Say hello..." style="height:75px;" required=""><br>
-				<input type="submit" name="submit" value="Roger!" class="ourwork-button submit">	
-			</form>
-              <br>
-              <a href="http://twitter.com/"><i class="fa fa-twitter-square fa-3x"></i></a><a href="http://github.com/N4SJAMK"><i class="fa fa-github-square fa-3x"></i></a><!--<a href="#"><i class="fa fa-dropbox fa-3x"></i></a>-->
-              <!--<a href="http://www.facebook.com"><img src="img/facebook.png" style="margin-right:10px;"></a> <a href="http://www.twitter.com"><img src="img/twitter.png"></a>--> </div>
-      </div>
         </div>
   </div>
     </div>
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>--> 
 <script type="text/javascript" src="js/smoothscroll.js"></script> 
 <script>
-
+	
 </script>
 <script>
         $('body').mousemove(function(e){
