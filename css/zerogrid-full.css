@@ -1318,7 +1318,7 @@ iframe {
 	width: 50px !important;
 }
 .base, .form {
-	height:250px !important;
+	height:220px !important;
 	}
 .base h3, .form h3 {
 	margin-left: 75px !important;
@@ -1825,6 +1825,10 @@ i:hover {
 
 .form .field1{
 	margin-top: 10px;
+}
+
+input, textarea, select {
+   -webkit-appearance: none;
 }
 /* CSS styling for font-face fonts */
 
