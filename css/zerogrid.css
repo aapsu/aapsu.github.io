@@ -181,7 +181,7 @@ body {
 	padding-top: 75px !important;
 }
 .zerogrid .col-full-example1 {
-	height: 550px !important;
+	height: 650px !important;
 }
 .zerogrid .col-full-example2 {
 	height: 200px !important;
@@ -197,7 +197,7 @@ body {
 	margin:0 30px !important;
 }
 .zerogrid .nav.scroll-to-fixed-fixed ul li {
-	top: 10px !important;
+	top: 20px !important;
 	display:inline-block;
 }
 .zerogrid .nav ul {
@@ -545,7 +545,7 @@ body {
 .zerogrid .col-full-example5 {
 	/*background-image:url(../img/bg_low.jpg);*/
 	background-repeat:no-repeat;
-	height: 450px;
+	height: 400px;
 	clear: both;
 }
 .zerogrid .col-full-example4 {

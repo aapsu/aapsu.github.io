@@ -624,7 +624,7 @@ Author URI: http://www.zerotheme.com/
 	line-height: 200px;
 }
 .zerogrid-full .logoshere {
-	visibility: visible !important;
+	/*visibility: visible !important;*/
     opacity: 1 !important;
 	font-size: 20px !important;
 }
@@ -640,6 +640,10 @@ iframe {
 }
 .base .twitter {
 	margin-left: 50px !important;
+}
+.arrow {
+	margin-top: 450px !important;
+	margin-left:-20px !important;
 }
 }
 
@@ -848,6 +852,10 @@ height: 420px!important;
 .zerogrid-full .ourwork-button {
 	margin-top: 20px !important;
 }
+.arrow {
+	margin-top: 300px !important;
+	margin-left:-20px !important;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
@@ -1043,6 +1051,10 @@ iframe {
 	/*background-color:#000 !important;*/
 	background-image:none !important;
 }
+.arrow {
+	margin-top: 310px !important;
+	margin-left:-20px !important;
+}
 }
 
 /* Normal smartphones with smaller screens*/
@@ -1117,6 +1129,10 @@ iframe {
 }
 .zerogrid-full .ourwork-button {
 	margin-top: 20px !important;
+	width: 150px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+	font-size: 14px !important;
 }
 .zerogrid-full .orangetext {
 	font-size: 24px;
@@ -1318,7 +1334,7 @@ iframe {
 	margin-top: 20px !important;
 }
 .arrow {
-	margin-top: 100px !important;
+	margin-top: 90px !important;
 	text-align:center !important;
 	margin-left: 45% !important;
 }
@@ -1343,6 +1359,9 @@ iframe {
 	width: 100%;
 	height:270px;
 	margin: 15px;
+	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1657,6 +1676,9 @@ table {
 	font-weight: normal;
 	text-align:center;
 }
+.zerogrid .nav.scroll-to-fixed-fixed { 
+	height: 50px !important;
+}
 .zerogrid-full .nav ul li {
 	width: 50%;
 	float: left;
@@ -1729,13 +1751,9 @@ table {
 .submit	{
 	line-height:30px !important;
 	font-size:18px !important;
-	font-family: webly !important;
 	margin-top: 10px !important;
 }
 .submit:hover	{
-	color: #4d4d4d !important;
-	background-color: #fff !important;
-	font-weight: bold !important;
 }
 i {
 	margin-left: 15px;
