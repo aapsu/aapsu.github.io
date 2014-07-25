@@ -1345,6 +1345,9 @@ iframe {
 .form input {
 	margin-left: 75px !important;
 }
+textarea {
+	margin-left: 75px !important;
+}
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1790,7 +1793,7 @@ i:hover {
 	font-size:28px;
 	color: #F75432;
 	margin-top: 50px;
-	margin-left: 150px;
+	margin-left: 100px;
 	font-family: texgyre;
 }
 .form h3 {
@@ -1805,11 +1808,11 @@ i:hover {
 	font-size:20px;
 	font-family: source;
 	color:#4d4d4d;
-	margin-left: 150px;
+	margin-left: 100px;
 }
 .base .twitter {
 	text-align: left;
-	margin-left: 150px;
+	margin-left: 100px;
 }
 .social {
 	text-align:center;
