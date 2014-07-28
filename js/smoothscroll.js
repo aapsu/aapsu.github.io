@@ -23,7 +23,7 @@ if(mq.matches) {
 		var offset = -50;
 	// desktop resolution	
 	} else {
-		var offset = -75;	
+		var offset = -70;	
 	}
  }
  
