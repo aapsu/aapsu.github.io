@@ -4,8 +4,10 @@
 var mq = window.matchMedia( "(max-width: 767px)" );
 if(mq.matches) {
 	var offset = -50;
+	console.log(offset);
 } else {
 	var offset = -70;
+	console.log(offset);
 }
  
  
@@ -21,9 +23,11 @@ if(mq.matches) {
 	// mobile resolution
 	if(mq.matches) {
 		var offset = -50;
+		console.log(offset);
 	// desktop resolution	
 	} else {
 		var offset = -70;	
+		console.log(offset);
 	}
  }
  
