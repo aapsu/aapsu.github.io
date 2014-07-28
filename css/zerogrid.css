@@ -457,8 +457,8 @@ height: 320px !important;
 }
 .zerogrid .logo {
 	display: block !important;
-	margin-top: 0 !important;
-	margin-bottom: 10px !important;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
 	margin-left: auto !important;
 	margin-right:auto !important;
 }
