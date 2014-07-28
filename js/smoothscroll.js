@@ -5,7 +5,7 @@ var mq = window.matchMedia( "(max-width: 767px)" );
 if(mq.matches) {
 	var offset = -50;
 } else {
-	var offset = -75;
+	var offset = -70;
 }
  
  
