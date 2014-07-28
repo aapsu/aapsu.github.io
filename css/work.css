@@ -72,7 +72,7 @@ body {
 .desc2 {
 	font-size:18px;
 	text-align:left;
-	margin-top: 100px;
+	margin-top: 50px;
 	font-family:texgyre;
 	margin-bottom: 100px;
 	margin-left: 10%;
@@ -99,7 +99,7 @@ body {
 	color: #4A4A4A;
 	font-family:texgyre;
 	font-size: 36px;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left:60%;
 	border-top: 5px solid #F75423;
 }
@@ -157,8 +157,8 @@ body {
 	background-size:cover;
 }
 .zerogrid-full #teamboard {
-	background-image:url(../img/teamboard_picture.jpg);
-	height: 650px;
+	background-image:url(../img/teamboard_picture_low.png);
+	height: 450px;
 	background-size:cover;
 }
 .zerogrid-full #teamboard-pic {
@@ -202,7 +202,7 @@ body {
     opacity: 1;
 }
 .zerogrid-full #unity {
-	background-image:url(../img/unity_mockup_logo.jpg);
+	background-image:url(../img/unity_mockup_logo_low.jpg);
 	height:450px;
 	background-color: #000;
 	opacity: 0.9;

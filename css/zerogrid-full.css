@@ -347,16 +347,20 @@ Author URI: http://www.zerotheme.com/
 	height: 250px;
 }
 .zerogrid-full #logo1:hover {
-	background-image:url(../img/logo1_dark_background.png);
+	background-image:url(../img/unity_btn_orange.png);
+	transition: background-image 0.25s ease-in;
 }
 .zerogrid-full #logo2:hover {
-	background-image:url(../img/logo2_dark_background.png);
+	background-image:url(../img/teamboard_btn_orange.png);
+	transition: background-image 0.25s ease-in;
 }
 .zerogrid-full #logo3:hover {
-	background-image:url(../img/logo3_dark_background.png);
+	background-image:url(../img/toolbar_btn_orange.png);
+	transition: background-image 0.25s ease-in;
 }
 .zerogrid-full #logo4:hover {
-	background-image:url(../img/logo2_dark_background.png);
+	background-image:url(../img/teamboard_btn_orange.png);
+	transition: background-image 0.25s ease-in;
 }
 #photo1:hover {
 	background-image:url(../img/face1_orange.png);
@@ -630,7 +634,7 @@ Author URI: http://www.zerotheme.com/
 }
 iframe {
 	margin:10px !important;
-	height: 290px !important;
+	height: 280px !important;
 	box-sizing:border-box !important;	
 }
 .base h3 {
@@ -669,7 +673,6 @@ height: 320px !important;
 	opacity: 1.0 !important;
 }
 .zerogrid-full .logoshere {
-	visibility: visible !important;
     opacity: 1 !important;
 	font-size: 20px !important;
 }
