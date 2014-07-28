@@ -485,7 +485,7 @@ height: 320px !important;
 
 
 body {
-	background-image:url(../img/n4sjamk_background_pic.png);
+	background-color:#221A26; 
 	margin: 0;
 	background-attachment:fixed;
 	width:100%;
@@ -946,7 +946,7 @@ table {
 /*Definitions how navbar looks after its fixed to top*/
 .zerogrid .nav.scroll-to-fixed-fixed { 
     background-color: #221A26;
-	height: 70px;
+	height: 75px;
 	border: 0;
 	transition: all 200ms linear;
 }
@@ -980,7 +980,7 @@ table {
 .zerogrid .nav ul li {
 	display: inline-block;
 	position:relative;
-	top: -40px;
+	top: -50px;
 }
 .zerogrid .nav ul li:hover {
 }

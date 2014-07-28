@@ -1670,7 +1670,7 @@ table {
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
 .zerogrid-full .example-header .container {
 	width: 100%;
 }
