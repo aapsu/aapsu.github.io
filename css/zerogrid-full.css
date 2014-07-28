@@ -305,7 +305,7 @@ Author URI: http://www.zerotheme.com/
 	font-size: 20px;
 	margin-left:10px;
 	margin-right:10px;
-	font-family:source;
+	font-family:texgyre;
 	background-color: #transparent;
 	visibility:hidden;
 	opacity: 0;
@@ -1295,14 +1295,10 @@ iframe {
 }
 .zerogrid-full .orangetext {
 	margin-top: 20px !important; 
-	}
+}
 .zerogrid-full .orangetext-work {
 	margin-top: 20px !important; 
-	}	
-	.submit	{
-	width: 80px !important;
-	height: 36px !important;
-}
+}	
 #teamboard-pic, #teamboard-pic2, #teamboard-pic3, #teamboard-pic4 {
 	display:none !important;
 	}
@@ -1830,9 +1826,9 @@ i:hover {
 	margin-top: 10px;
 }
 
-input, textarea, select {
+/*input, textarea, select {
    -webkit-appearance: none;
-}
+}*/
 /* CSS styling for font-face fonts */
 
 
