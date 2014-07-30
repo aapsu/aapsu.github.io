@@ -1,3 +1,5 @@
+[preview:5](articles/clownfactory.md)
+- - - -
 [preview:4](articles/royalpalace.md)
 - - - -
 [preview:4](articles/boat.md)
