@@ -295,6 +295,7 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .example2 {
 	text-align: center;
 	line-height: 470px;
+	font-family:source;
 	font-size: 38px;
 	color: #fff;
 }
@@ -412,16 +413,8 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .col-full-example4 {
 	height:300px !important;
 }
-.zerogrid-full .slide-out-div {
-	 opacity:0.99 !important;
-	 margin: 0 20% !important;
-	 width: 60% !important;
-}
 #close {
 	margin-right: 20px !important;
-}
- .zerogrid-full .right-form {
-	 width:45%!important;
 }
 .zerogrid-full .context {
 	margin: 30px 25% 20px 25% !important;
@@ -442,13 +435,9 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .ourwork-button {
 	margin-top: 40px !important;
 }
-.zerogrid-full .left-form {
-	width: 60% !important;
-	}
-
-.zerogrid-full .right-form{
-	width: 40% !important;
-	}
+.zerogrid-full .subtext {
+	font-size:15px !important;	
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -503,14 +492,6 @@ Author URI: http://www.zerotheme.com/
 	margin: 20px 10px 20px 40px !important;
 }
 .zerogrid-full .col-full-all-logos {
-	display:block !important;
-}
-.zerogrid-full .slide-out-div {
-	 opacity:0.99 !important;
-	 margin: 0 10% !important;
-	 width: 80% !important;
-} 	
-.zerogrid-full .right-form {
 	display:block !important;
 }
 .zerogrid-full footer {
@@ -664,11 +645,7 @@ iframe {
 }
 .zerogrid-full .col-full-all-logos {
 	display:block !important;
-	}
-.zerogrid-full .slide-out-div {
-width: 100% !important;
-height: 320px !important;
-} 
+}
 .zerogrid-full footer {
 	opacity: 1.0 !important;
 }
@@ -733,14 +710,7 @@ height: 320px !important;
 }
 .zerogrid-full .col-full-all-logos {
 	display:block !important;
-}
-.zerogrid-full .slide-out-div {
-width: 100%!important;
-height: 420px!important;
 } 	
-.zerogrid-full .right-form {
-	display:block !important;
-}
 .zerogrid-full .logoshere {
 	line-height:22px !important;
 	font-size:18px !important;
@@ -943,21 +913,6 @@ iframe {
 	display:none !important;
 	margin:0 auto !important;
 }
-.zerogrid-full .slide-out-div {
-width: 100%!important;
-height: 550px!important;
-} 	
-.zerogrid-full .right-form {
-	width: 95% !important;
-	float:left !important;
-	display:inline-block !important
-}
-.zerogrid-full .left-form {
-	width: 90% !important;
-	float:left !important;
-	display:block !important;
-	height: auto !important;
-}
 iframe {
 	height:300px!important;
 	width: 95% !important;
@@ -1057,10 +1012,6 @@ iframe {
 .zerogrid-full .n4sbutton {
 	margin-top: 10px !important;
 	margin-bottom: 10px !important;
-	width: 150px !important;
-	height: 30px !important;
-	font-size: 14px !important;
-	line-height: 30px !important;
 }
 .zerogrid-full .ourwork-button {
 	margin-top: 10px !important;
@@ -1217,24 +1168,8 @@ iframe {
 	font-size:18px;
 	background-color:#fff;
 }
-
 .zerogrid-full .sayhello-button {
 	margin-top: 35px!important;
-}
-.zerogrid-full .slide-out-div {
-width: 100%!important;
-height: 400px!important;
-} 	
-.zerogrid-full .right-form {
-	width: 95% !important;
-	float:left !important;
-	display:inline-block !important
-}
-.zerogrid-full .left-form {
-	width: 85% !important;
-	float:left !important;
-	display:block !important;
-	height: auto !important;
 }
 iframe {
 	height:200px!important;
@@ -1726,56 +1661,11 @@ table {
 
 .zerogrid-full .logo { margin-bottom: 10px;}
 }
-
-/* slide out div*/
-
-.zerogrid-full .slide-out-div {
-          padding: 20px;
-          width: 100%;
-		  border-radius: 5px 5px 0px 0px;
-		  height: 420px;
-		  margin: 0px auto;
-		  font-family:webly;
-		  font-size:14px;
-          background-color: #FFFFFF;
-		  color: #4D4D4D;
-		  opacity: 0.99 !important;
-      } 
-	  .zerogrid-full .slide-out-div p {
-		  font-family:webly;
-		  font-size:14px;
-		  line-height: 20px;
-		  color: #4d4d4d;
-      } 
-	  .zerogrid-full .slide-out-div img {
-		  height: 45px;
-		  width: 45px;
-		  margin-right: 10px;
-	  }
-
-
 /* CSS Styling for contact form */
 
 .zerogrid-full form p {
 	margin-bottom: 5px;
-	}
-
-.zerogrid-full .left-form {
-	float:left;
-	width: 45%;
-	}
-
-.zerogrid-full .right-form{
-	float:left;
-	width: 45%;
-	}
-
-.zerogrid-full .slide-out-div h3 {
-	font-size:22px;
-	color: #F75432;
-	font-weight:bold;
-	}
-
+}
 .submit	{
 	line-height:30px !important;
 	font-size:18px !important;

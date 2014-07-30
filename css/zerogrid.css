@@ -515,6 +515,15 @@ body {
 	height: 25%;
 	margin: 20px 0px -20px 10px;
 }
+.zerogrid .navlogo {
+	background-image:url(../img/n4sjamk_logo_notext.svg);
+	height:40px;
+	width:100px;
+}
+.zerogrid .navlogo:hover {
+	background-image:url(../img/n4sjamk_logo_orange_notext.svg);
+
+}
 .zerogrid .wrap-col-header h2 {
 	font-size:26px;
 	vertical-align:middle;
